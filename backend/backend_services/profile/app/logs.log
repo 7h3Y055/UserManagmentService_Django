@@ -1,0 +1,835 @@
+INFO (2025-01-31 14:54:50,823): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 14:57:52,450): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 14:58:01,957): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:00:45,076): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:44:11,502): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:44:27,494): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:44:42,793): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-31 15:44:53,161): log_response | Not Found: /
+WARNING (2025-01-31 15:44:57,185): log_response | Not Found: /profile/
+WARNING (2025-01-31 15:45:03,944): log_response | Forbidden: /profile/avatar
+WARNING (2025-01-31 15:45:21,355): log_response | Forbidden: /profile/avatar
+WARNING (2025-01-31 15:45:43,662): log_response | Forbidden: /profile/avatar
+INFO (2025-01-31 15:46:27,993): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:46:28,222): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:46:32,364): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:46:32,584): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:46:37,790): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:46:38,020): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-31 15:46:41,175): log_response | Forbidden (CSRF cookie not set.): /profile/avatar
+ERROR (2025-01-31 15:46:43,682): get_user | Token has expired
+ERROR (2025-01-31 15:46:43,693): log_response | Internal Server Error: /profile/avatar
+Traceback (most recent call last):
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+           ^^^^^^^^
+AssertionError: .accepted_renderer not set on Response
+INFO (2025-01-31 15:46:52,461): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:46:52,686): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:46:54,873): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:46:55,107): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:46:59,227): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:46:59,444): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:47:02,557): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:47:02,772): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:47:05,963): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:47:06,183): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:47:07,348): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:47:07,578): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-31 15:47:10,451): get_user | Token has expired
+WARNING (2025-01-31 15:47:10,451): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 15:47:41,059): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:47:41,287): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:49:27,654): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-31 15:49:34,415): get_user | Token has expired
+WARNING (2025-01-31 15:49:34,415): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 15:50:28,384): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:50:28,630): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:50:53,061): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:50:53,294): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:50:56,489): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:50:56,702): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:50:58,874): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:50:59,091): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:51:04,282): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:51:04,494): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:51:08,617): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:51:08,820): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:51:13,947): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:51:14,154): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:51:27,465): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:51:27,692): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:51:28,865): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:51:29,082): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:51:31,264): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:51:31,481): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:52:08,966): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:52:09,178): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:52:12,376): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:52:12,585): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:52:17,798): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:52:18,025): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:52:19,195): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:52:19,401): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:52:38,744): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:52:38,951): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:52:43,152): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:52:43,374): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:52:50,603): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:52:50,813): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:53:00,054): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:53:00,269): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:53:03,373): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:53:03,579): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:53:08,721): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:53:08,927): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:53:14,086): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:53:14,298): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:53:15,394): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:53:15,629): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:53:17,742): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:53:17,963): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:53:23,087): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:53:23,293): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:53:24,387): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:53:24,593): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:53:31,737): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:53:31,944): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:53:46,232): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:53:46,440): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:53:53,666): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:53:53,871): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:53:57,999): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:53:58,200): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:54:19,583): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:54:19,796): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:54:21,974): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:54:22,191): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:54:23,376): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:54:23,599): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:54:25,778): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:54:25,998): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:54:28,176): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:54:28,414): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:54:54,821): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:54:55,044): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:00,253): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:00,471): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:02,653): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:02,866): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:10,100): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:10,306): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:15,507): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:15,724): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:19,926): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:20,142): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:23,333): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:23,550): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:26,746): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:26,968): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:30,157): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:30,371): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:31,546): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:31,770): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:39,001): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:39,209): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:42,396): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:42,613): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:45,728): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:45,940): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:47,039): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:47,268): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:48,450): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:48,679): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:55:50,863): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:55:51,075): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:56:05,373): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:56:05,591): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:56:08,783): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:56:08,990): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:56:14,198): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:56:14,439): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:56:15,616): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:56:15,834): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:56:19,028): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:56:19,245): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:56:22,438): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:56:22,676): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:56:23,854): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:56:24,071): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:56:34,321): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:56:34,538): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:56:37,722): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:56:37,927): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:56:40,044): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:56:40,246): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:56:47,494): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:56:47,717): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:56:50,913): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:56:51,148): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 15:56:53,359): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 15:56:53,571): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 16:13:49,611): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/project/settings.py changed, reloading.
+INFO (2025-01-31 16:13:49,831): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 16:13:51,004): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/project/settings.py changed, reloading.
+INFO (2025-01-31 16:13:51,274): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 16:48:08,003): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-31 16:48:17,366): log_response | Forbidden: /profile/avatar
+WARNING (2025-01-31 16:48:18,346): log_response | Forbidden: /profile/avatar
+INFO (2025-01-31 16:48:33,472): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 16:48:33,689): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 16:48:35,403): _new_conn | Starting new HTTP connection (1): user_management:8000
+ERROR (2025-01-31 16:48:35,406): get_user | Invalid token
+WARNING (2025-01-31 16:48:35,407): log_response | Bad Request: /profile/avatar
+DEBUG (2025-01-31 16:48:41,256): _new_conn | Starting new HTTP connection (1): user_management:8000
+ERROR (2025-01-31 16:48:41,259): get_user | Invalid token
+WARNING (2025-01-31 16:48:41,260): log_response | Bad Request: /profile/avatar
+DEBUG (2025-01-31 16:48:41,973): _new_conn | Starting new HTTP connection (1): user_management:8000
+ERROR (2025-01-31 16:48:41,978): get_user | Invalid token
+WARNING (2025-01-31 16:48:41,978): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 16:48:42,016): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 16:48:42,247): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-31 16:48:42,463): log_response | Forbidden: /profile/avatar
+INFO (2025-01-31 16:48:44,440): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 16:48:44,652): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-31 16:48:45,922): log_response | Forbidden: /profile/avatar
+WARNING (2025-01-31 16:49:07,312): log_response | Forbidden: /profile/avatar
+WARNING (2025-01-31 16:49:09,346): log_response | Forbidden: /profile/avatar
+INFO (2025-01-31 16:49:21,255): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 16:49:21,465): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-31 16:49:22,683): log_response | Forbidden (CSRF cookie not set.): /profile/avatar
+INFO (2025-01-31 16:49:31,764): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 16:49:31,993): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 16:49:32,197): _new_conn | Starting new HTTP connection (1): user_management:8000
+ERROR (2025-01-31 16:49:32,200): get_user | Invalid token
+WARNING (2025-01-31 16:49:32,200): log_response | Bad Request: /profile/avatar
+DEBUG (2025-01-31 16:49:33,279): _new_conn | Starting new HTTP connection (1): user_management:8000
+ERROR (2025-01-31 16:49:33,282): get_user | Invalid token
+WARNING (2025-01-31 16:49:33,282): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 16:49:48,333): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 16:49:48,549): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:05:59,175): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:06:00,994): _new_conn | Starting new HTTP connection (1): user_management:8000
+ERROR (2025-01-31 17:06:00,997): get_user | Invalid token
+WARNING (2025-01-31 17:06:00,997): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:11:43,888): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:11:50,142): _new_conn | Starting new HTTP connection (1): user_management:8000
+ERROR (2025-01-31 17:11:50,145): get_user | Invalid token
+WARNING (2025-01-31 17:11:50,146): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:12:19,513): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:12:19,743): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:12:25,975): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:12:26,200): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:12:27,374): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:12:27,661): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:12:33,882): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:12:34,143): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:12:36,335): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:12:36,569): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:12:38,760): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:12:39,018): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:12:40,199): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:12:40,440): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:12:41,618): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:12:41,859): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:12:49,110): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:12:49,338): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:12:50,709): _new_conn | Starting new HTTP connection (1): user_management:8000
+ERROR (2025-01-31 17:12:50,712): get_user | Invalid token
+WARNING (2025-01-31 17:12:50,712): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:13:25,947): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:13:26,175): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:13:28,055): _new_conn | Starting new HTTP connection (1): user_management:8000
+DEBUG (2025-01-31 17:13:28,080): _make_request | http://user_management:8000 "GET /account/whoami/ HTTP/1.1" 400 None
+ERROR (2025-01-31 17:13:28,081): get_user | Invalid token
+WARNING (2025-01-31 17:13:28,082): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:13:40,527): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:13:40,777): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:13:42,881): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:13:43,103): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:13:44,276): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:13:44,520): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:13:46,258): _new_conn | Starting new HTTP connection (1): user_management:8000
+DEBUG (2025-01-31 17:13:46,270): _make_request | http://user_management:8000 "GET /account/whoami/ HTTP/1.1" 400 None
+ERROR (2025-01-31 17:13:46,270): get_user | Invalid token
+WARNING (2025-01-31 17:13:46,270): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:13:55,848): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:13:56,080): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:14:00,297): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:14:00,512): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:14:02,707): _new_conn | Starting new HTTP connection (1): user_management:8000
+DEBUG (2025-01-31 17:14:02,717): _make_request | http://user_management:8000 "GET /account/whoami/ HTTP/1.1" 400 None
+ERROR (2025-01-31 17:14:02,718): get_user | Invalid token
+WARNING (2025-01-31 17:14:02,718): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:17:22,998): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:17:27,341): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:17:27,344): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 403 58
+ERROR (2025-01-31 17:17:27,344): get_user | Invalid token
+WARNING (2025-01-31 17:17:27,345): log_response | Bad Request: /profile/avatar
+DEBUG (2025-01-31 17:17:50,593): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:17:50,595): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 403 58
+ERROR (2025-01-31 17:17:50,596): get_user | Invalid token
+WARNING (2025-01-31 17:17:50,596): log_response | Bad Request: /profile/avatar
+DEBUG (2025-01-31 17:21:44,618): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:21:44,634): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+INFO (2025-01-31 17:23:25,114): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:23:25,494): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:23:28,736): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:23:28,947): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:23:44,270): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:23:44,482): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:23:47,670): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:23:47,883): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:23:50,329): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:23:50,413): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 401 51
+ERROR (2025-01-31 17:23:50,413): get_user | Invalid token
+WARNING (2025-01-31 17:23:50,414): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:24:20,401): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:24:20,632): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:24:47,795): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:24:47,807): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+INFO (2025-01-31 17:25:04,284): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:25:04,495): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:25:20,850): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:25:21,079): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:25:28,236): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:25:28,516): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:25:31,717): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:25:31,948): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:25:40,193): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:25:40,400): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:25:45,604): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:25:45,807): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:25:47,984): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:25:48,221): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:25:49,399): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:25:49,609): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:25:55,850): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:25:56,052): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:26:09,398): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:26:09,633): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:26:13,841): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:26:14,076): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:26:18,283): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:26:18,518): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:26:19,612): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:26:19,820): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:26:21,926): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:26:22,132): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:26:30,296): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:26:30,508): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:27:34,332): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:27:34,546): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:27:37,730): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:27:37,952): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:27:53,284): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:27:53,493): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:27:54,672): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:27:54,879): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:28:04,172): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:28:04,379): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:28:07,568): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:28:07,790): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:28:09,984): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:28:10,205): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:28:13,400): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:28:13,615): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:28:16,812): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:28:17,020): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:28:30,341): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:28:30,551): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:28:48,900): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:28:49,134): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:29:01,156): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:29:01,167): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+ERROR (2025-01-31 17:29:01,193): log_response | Internal Server Error: /profile/avatar
+Traceback (most recent call last):
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py", line 48, in avatar
+    user.username = 'ta9 amarch'
+    ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'username' and no __dict__ for setting new attributes
+INFO (2025-01-31 17:29:22,708): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:29:22,932): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:29:29,615): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:29:29,625): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:29:29,626): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:29:29,631): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 404 4110
+ERROR (2025-01-31 17:29:29,631): save_user | Invalid token
+INFO (2025-01-31 17:30:01,516): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:30:01,738): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:30:03,929): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:30:04,143): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:30:05,235): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:30:05,436): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:30:11,838): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:30:11,848): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:30:11,849): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:30:11,852): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 404 4110
+ERROR (2025-01-31 17:30:11,853): save_user | Invalid token
+WARNING (2025-01-31 17:30:11,853): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:30:17,760): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:30:17,969): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:30:19,148): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:30:19,364): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:30:20,359): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:30:20,370): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:30:20,371): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:30:20,374): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 404 4110
+ERROR (2025-01-31 17:30:20,375): save_user | Invalid token
+WARNING (2025-01-31 17:30:20,375): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:30:59,996): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:31:00,206): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:31:17,562): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:31:17,786): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:31:25,018): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:31:25,227): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:31:27,404): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:31:27,619): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:31:32,831): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:31:33,044): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:31:36,221): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:31:36,461): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:31:38,655): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:31:38,880): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:31:43,096): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:31:43,349): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:31:44,279): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:31:44,293): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:31:44,294): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:31:44,297): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 404 4110
+ERROR (2025-01-31 17:31:44,297): save_user | Invalid token
+WARNING (2025-01-31 17:31:44,297): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:33:11,509): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:33:11,716): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:33:14,087): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:33:14,100): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 216
+DEBUG (2025-01-31 17:33:14,101): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:33:14,112): _make_request | http://localhost:8000 "PATCH /account/update/ HTTP/1.1" 400 74
+ERROR (2025-01-31 17:33:14,113): save_user | Invalid token
+WARNING (2025-01-31 17:33:14,113): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:33:21,009): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:33:21,219): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:51:12,243): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:51:12,460): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:51:31,826): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:51:32,061): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:51:52,478): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:51:52,707): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:51:53,884): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:51:54,128): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:51:55,304): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:51:55,583): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:51:57,765): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:51:57,971): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-31 17:51:59,149): log_response | Forbidden: /profile/avatar
+WARNING (2025-01-31 17:52:25,588): log_response | Forbidden: /profile/avatar
+WARNING (2025-01-31 17:52:39,043): log_response | Forbidden: /profile/avatar
+INFO (2025-01-31 17:53:02,795): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:53:02,999): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:53:04,102): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:53:04,116): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 216
+DEBUG (2025-01-31 17:53:04,117): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:53:04,121): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 404 4110
+ERROR (2025-01-31 17:53:04,121): save_user | Invalid token
+WARNING (2025-01-31 17:53:04,122): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:53:15,292): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:53:15,514): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:53:48,626): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:53:48,637): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:53:48,638): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:53:48,655): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 400 88
+ERROR (2025-01-31 17:53:48,656): save_user | Invalid token
+WARNING (2025-01-31 17:53:48,656): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:54:10,293): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:54:10,512): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:54:16,743): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:54:16,951): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:54:18,132): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:54:18,145): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:54:18,146): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:54:18,156): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 400 74
+ERROR (2025-01-31 17:54:18,157): save_user | Invalid token
+WARNING (2025-01-31 17:54:18,157): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:54:38,370): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:54:38,608): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:54:40,804): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:54:41,039): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:54:44,229): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:54:44,449): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:54:45,623): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:54:45,829): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:55:39,579): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:55:39,811): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:55:50,000): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:55:50,207): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:55:52,312): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:55:52,560): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:55:54,673): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:55:54,881): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:55:57,999): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:55:58,200): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:56:01,324): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:56:01,549): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:56:03,338): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:56:03,352): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:56:03,353): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:56:03,368): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 200 214
+INFO (2025-01-31 17:56:11,890): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:56:12,101): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:56:13,732): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:56:13,744): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:56:13,745): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:56:13,758): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 400 88
+ERROR (2025-01-31 17:56:13,759): save_user | Invalid token
+WARNING (2025-01-31 17:56:13,759): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:56:37,512): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:56:37,734): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:56:38,917): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:56:39,161): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:56:41,362): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:56:41,571): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:56:47,861): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:56:47,874): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:56:47,875): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:56:47,885): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 400 88
+ERROR (2025-01-31 17:56:47,885): save_user | Invalid token
+WARNING (2025-01-31 17:56:47,886): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:56:52,878): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:56:53,110): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:56:54,458): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:56:54,469): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:56:54,470): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:56:54,487): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 200 214
+INFO (2025-01-31 17:57:06,492): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:57:06,706): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:57:10,917): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:57:11,126): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:57:13,217): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:57:13,232): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:57:13,233): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:57:13,248): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 400 88
+ERROR (2025-01-31 17:57:13,248): save_user | Invalid token
+WARNING (2025-01-31 17:57:13,248): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:57:45,771): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:57:45,977): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:57:47,200): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:57:47,214): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:57:47,215): _new_conn | Starting new HTTP connection (1): localhost:8888
+INFO (2025-01-31 17:57:58,303): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:57:58,544): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:58:38,150): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:58:38,359): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 17:58:41,566): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:58:41,774): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:58:46,437): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:58:46,448): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:58:46,449): _new_conn | Starting new HTTP connection (1): localhost:8888
+DEBUG (2025-01-31 17:58:54,186): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:58:54,197): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:58:54,198): _new_conn | Starting new HTTP connection (1): localhost:8888
+ERROR (2025-01-31 17:58:54,198): save_user | Invalid token
+WARNING (2025-01-31 17:58:54,198): log_response | Bad Request: /profile/avatar
+ERROR (2025-01-31 17:58:55,958): save_user | Invalid token
+WARNING (2025-01-31 17:58:55,958): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:59:00,173): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:59:00,384): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:59:02,901): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:59:02,912): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:59:02,913): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:59:02,927): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 400 74
+ERROR (2025-01-31 17:59:02,927): save_user | Invalid token
+WARNING (2025-01-31 17:59:02,928): log_response | Bad Request: /profile/avatar
+DEBUG (2025-01-31 17:59:08,702): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:59:08,716): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:59:08,716): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:59:08,729): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 400 74
+ERROR (2025-01-31 17:59:08,729): save_user | Invalid token
+WARNING (2025-01-31 17:59:08,730): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:59:53,143): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:59:53,358): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 17:59:54,210): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:59:54,224): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 17:59:54,225): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 17:59:54,234): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 400 74
+ERROR (2025-01-31 17:59:54,235): save_user | Invalid token
+WARNING (2025-01-31 17:59:54,235): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 17:59:57,564): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 17:59:57,771): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:00:39,446): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:00:39,667): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:00:43,933): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:00:43,944): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 18:00:43,946): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:00:43,958): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 400 88
+ERROR (2025-01-31 18:00:43,959): save_user | Invalid token
+WARNING (2025-01-31 18:00:43,959): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 18:00:48,964): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:00:49,187): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:00:51,385): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:00:51,602): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:00:52,773): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:00:52,988): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:00:54,163): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:00:54,364): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:01:01,617): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:01:01,827): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:01:09,061): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:01:09,287): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:01:16,024): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:01:16,036): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 18:01:16,037): _new_conn | Starting new HTTP connection (1): localhost:8002
+ERROR (2025-01-31 18:01:29,431): save_user | Invalid token
+WARNING (2025-01-31 18:01:29,431): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 18:02:15,274): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:02:15,502): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:02:17,869): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:02:17,879): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 18:02:17,880): _new_conn | Starting new HTTP connection (1): localhost:8002
+ERROR (2025-01-31 18:02:17,881): save_user | Invalid token
+WARNING (2025-01-31 18:02:17,881): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 18:02:32,958): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:02:33,187): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:02:35,326): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:02:35,561): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:02:41,793): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:02:42,010): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:03:01,392): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:03:01,602): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:03:06,512): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:03:06,526): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 18:03:06,527): _new_conn | Starting new HTTP connection (1): localhost:8002
+ERROR (2025-01-31 18:03:13,520): save_user | Invalid token
+WARNING (2025-01-31 18:03:13,520): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 18:03:20,016): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:03:20,236): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:03:21,540): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:03:21,552): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 18:03:21,553): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:03:21,564): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 400 88
+ERROR (2025-01-31 18:03:21,565): save_user | Invalid token
+WARNING (2025-01-31 18:03:21,566): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 18:03:48,782): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:03:49,007): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:03:51,190): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:03:51,398): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:03:52,292): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:03:52,303): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 18:03:52,304): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:03:52,323): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 200 216
+INFO (2025-01-31 18:04:11,753): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:04:11,975): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:04:13,159): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:04:13,375): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:04:14,565): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:04:14,575): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 216
+DEBUG (2025-01-31 18:04:14,576): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:04:14,593): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 200 215
+INFO (2025-01-31 18:04:35,836): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:04:36,061): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:04:39,256): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:04:39,467): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:04:42,664): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:04:42,877): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:04:44,974): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:04:45,226): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:04:47,419): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:04:47,628): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:04:50,827): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:04:51,074): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:04:53,277): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:04:53,487): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:05:05,812): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:05:06,026): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:05:19,377): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:05:19,615): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:05:21,793): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:05:21,999): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:05:25,182): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:05:25,395): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:05:27,398): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:05:27,411): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 215
+ERROR (2025-01-31 18:05:27,425): log_response | Internal Server Error: /profile/avatar
+Traceback (most recent call last):
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py", line 56, in avatar
+    user.username = 'blabla'
+    ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'username' and no __dict__ for setting new attributes
+INFO (2025-01-31 18:07:38,023): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:07:38,253): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:08:40,463): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:08:43,611): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:08:43,622): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 215
+ERROR (2025-01-31 18:08:43,623): save_user | Invalid token
+WARNING (2025-01-31 18:08:43,623): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 18:08:53,819): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:08:54,045): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:08:57,243): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:08:57,458): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:08:59,161): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:08:59,172): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 215
+INFO (2025-01-31 18:09:10,802): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:09:11,049): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:09:14,176): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:09:14,388): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:09:17,497): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:09:17,702): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:09:18,879): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:09:19,113): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:09:35,388): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:09:35,594): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:09:37,638): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:09:37,652): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 215
+INFO (2025-01-31 18:10:26,334): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:10:26,554): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:10:31,772): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:10:32,011): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:10:33,108): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:10:33,328): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:10:38,563): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:10:38,793): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:10:48,978): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:10:49,182): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:10:51,051): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:10:51,062): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 215
+ERROR (2025-01-31 18:10:51,063): save_user | Invalid token
+WARNING (2025-01-31 18:10:51,063): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 18:10:57,477): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:10:57,705): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:10:58,903): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:10:59,138): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:11:00,327): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:11:00,538): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:11:01,367): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:11:01,378): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 215
+ERROR (2025-01-31 18:11:01,379): save_user | Invalid token
+WARNING (2025-01-31 18:11:01,380): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 18:11:07,769): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:11:07,978): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:11:08,915): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:11:08,925): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 215
+DEBUG (2025-01-31 18:11:08,926): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:11:08,936): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 400 24
+ERROR (2025-01-31 18:11:08,936): save_user | Invalid token
+WARNING (2025-01-31 18:11:08,937): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 18:11:15,228): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:11:15,462): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:11:18,661): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:11:18,875): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:11:19,823): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:11:19,834): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 215
+DEBUG (2025-01-31 18:11:19,835): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:11:19,846): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 400 24
+ERROR (2025-01-31 18:11:19,847): save_user | Invalid token
+WARNING (2025-01-31 18:11:19,847): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 18:11:30,154): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:11:30,365): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:11:32,552): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:11:32,774): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:11:33,945): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:11:34,163): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:11:39,376): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:11:39,584): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:11:40,763): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:11:40,970): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:11:42,139): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:11:42,344): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:11:43,261): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:11:43,274): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 215
+DEBUG (2025-01-31 18:11:43,276): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:11:43,293): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 200 213
+INFO (2025-01-31 18:11:52,601): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:11:52,812): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:11:59,063): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:11:59,275): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:12:11,581): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:12:11,791): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:12:15,993): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:12:16,195): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:12:19,876): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:12:19,887): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 213
+DEBUG (2025-01-31 18:12:19,888): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:12:19,903): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 200 215
+INFO (2025-01-31 18:12:45,679): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:12:45,893): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:12:47,065): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:12:47,283): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:12:48,455): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:12:48,666): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:12:50,851): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:12:51,057): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:13:12,065): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:13:12,067): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 401 58
+ERROR (2025-01-31 18:13:12,067): get_user | Invalid token
+WARNING (2025-01-31 18:13:12,067): log_response | Bad Request: /profile/avatar
+INFO (2025-01-31 18:13:39,759): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:13:39,985): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:13:44,185): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:13:44,396): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:13:45,575): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:13:45,784): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:13:58,095): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:13:58,307): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:14:05,534): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:14:05,745): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:14:08,945): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:14:09,161): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 18:14:22,413): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:14:22,415): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 401 58
+ERROR (2025-01-31 18:14:22,416): get_user | Invalid token
+WARNING (2025-01-31 18:14:22,416): log_response | Unauthorized: /profile/avatar
+DEBUG (2025-01-31 18:14:29,451): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:14:29,468): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 215
+DEBUG (2025-01-31 18:14:29,469): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 18:14:29,493): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 200 215
+INFO (2025-01-31 18:14:38,651): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:14:38,896): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 18:14:50,157): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 18:14:50,374): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-31 18:14:51,324): log_response | Forbidden: /profile/avatar

@@ -1,0 +1,21 @@
+TODO:
+
+
+TOLEARN:
+
+
+
+ROUTES (profile managment):
+    profile/                    (GET)       : get user profile information
+    profile/                    (PATCH)     : update user profile information (username, fname, lname, status)
+    profile/avatar              (POST)      : upload new avatar
+    profile/avatar              (DELETE)    : remove avatar (set to default)
+
+
+
+
+
+
+
+
+

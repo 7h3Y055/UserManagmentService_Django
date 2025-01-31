@@ -1,7 +1,7 @@
 from django.http import JsonResponse, HttpResponse
 from ..models import Player
 from django.contrib.auth import login
-from .serializers import UserSerializer
+from .serializer import UserSerializer
 import requests, os, logging
 from rest_framework_simplejwt.tokens import RefreshToken
 from datetime import timedelta

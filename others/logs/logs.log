@@ -22,3 +22,234 @@ INFO (2025-01-31 12:23:35,060): callback | creating new User javamiya7@gmail.com
 DEBUG (2025-01-31 12:23:35,060): _new_conn | Starting new HTTPS connection (1): lh3.googleusercontent.com:443
 DEBUG (2025-01-31 12:23:35,706): _make_request | https://lh3.googleusercontent.com:443 "GET /a/ACg8ocIATyogdzuy3HkzMfhzfW0XkIUS-6dTgw2bjfR8-E0QYVKbh104=s96-c HTTP/1.1" 200 11085
 INFO (2025-01-31 12:23:35,803): callback | login in User javamiya7@gmail.com
+INFO (2025-01-31 15:15:44,778): login_42 | New request to create new user using 42 OAuth2 provider
+DEBUG (2025-01-31 15:15:44,954): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 15:15:45,170): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
+DEBUG (2025-01-31 15:15:45,172): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 15:15:45,609): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
+INFO (2025-01-31 15:15:45,620): callback | creating new User ybouchma@student.1337.ma does not exist
+DEBUG (2025-01-31 15:15:45,621): _new_conn | Starting new HTTPS connection (1): cdn.intra.42.fr:443
+DEBUG (2025-01-31 15:15:45,818): _make_request | https://cdn.intra.42.fr:443 "GET /users/79b1a559baa903aa8aafcc8307716749/small_ybouchma.jpeg HTTP/1.1" 200 7451
+INFO (2025-01-31 15:15:45,913): callback | login in User ybouchma@student.1337.ma
+WARNING (2025-01-31 15:15:46,077): log_response | Not Found: /favicon.ico
+WARNING (2025-01-31 15:16:20,343): log_response | Method Not Allowed: /account/update/
+WARNING (2025-01-31 15:16:41,129): log_response | Method Not Allowed: /account/whoami/
+WARNING (2025-01-31 15:16:56,727): log_response | Method Not Allowed: /account/whoami/
+WARNING (2025-01-31 15:18:26,259): log_response | Bad Request: /account/update/
+INFO (2025-01-31 15:49:49,737): login_42 | New request to create new user using 42 OAuth2 provider
+DEBUG (2025-01-31 15:49:49,914): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 15:49:50,082): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
+DEBUG (2025-01-31 15:49:50,083): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 15:49:50,545): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
+INFO (2025-01-31 15:49:50,556): callback | creating new User ybouchma@student.1337.ma does not exist
+DEBUG (2025-01-31 15:49:50,557): _new_conn | Starting new HTTPS connection (1): cdn.intra.42.fr:443
+DEBUG (2025-01-31 15:49:50,798): _make_request | https://cdn.intra.42.fr:443 "GET /users/79b1a559baa903aa8aafcc8307716749/small_ybouchma.jpeg HTTP/1.1" 200 7451
+INFO (2025-01-31 15:49:50,896): callback | login in User ybouchma@student.1337.ma
+INFO (2025-01-31 16:48:55,766): login_42 | New request to create new user using 42 OAuth2 provider
+DEBUG (2025-01-31 16:48:55,940): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 16:48:56,114): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
+DEBUG (2025-01-31 16:48:56,115): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 16:48:56,622): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
+INFO (2025-01-31 16:48:56,635): callback | creating new User ybouchma@student.1337.ma does not exist
+DEBUG (2025-01-31 16:48:56,636): _new_conn | Starting new HTTPS connection (1): cdn.intra.42.fr:443
+DEBUG (2025-01-31 16:48:56,849): _make_request | https://cdn.intra.42.fr:443 "GET /users/79b1a559baa903aa8aafcc8307716749/small_ybouchma.jpeg HTTP/1.1" 200 7451
+INFO (2025-01-31 16:48:56,941): callback | login in User ybouchma@student.1337.ma
+ERROR (2025-01-31 17:13:28,056): response_for_exception | Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING (2025-01-31 17:13:28,079): log_response | Bad Request: /account/whoami/
+ERROR (2025-01-31 17:13:46,260): response_for_exception | Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING (2025-01-31 17:13:46,269): log_response | Bad Request: /account/whoami/
+ERROR (2025-01-31 17:14:02,708): response_for_exception | Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING (2025-01-31 17:14:02,716): log_response | Bad Request: /account/whoami/
+ERROR (2025-01-31 17:14:47,963): response_for_exception | Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING (2025-01-31 17:14:47,971): log_response | Bad Request: /account/whoami/
+ERROR (2025-01-31 17:14:56,127): response_for_exception | Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING (2025-01-31 17:14:56,135): log_response | Bad Request: /account/whoami/
+ERROR (2025-01-31 17:15:03,256): response_for_exception | Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING (2025-01-31 17:15:03,265): log_response | Bad Request: /account/whoami/
+ERROR (2025-01-31 17:15:23,529): response_for_exception | Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING (2025-01-31 17:15:23,537): log_response | Bad Request: /account/whoami/
+WARNING (2025-01-31 17:15:39,799): log_response | Forbidden: /account/whoami/
+WARNING (2025-01-31 17:15:44,790): log_response | Forbidden: /account/whoami/
+WARNING (2025-01-31 17:15:47,296): log_response | Forbidden: /account/whoami/
+WARNING (2025-01-31 17:15:51,666): log_response | Forbidden: /account/whoami/
+WARNING (2025-01-31 17:16:14,751): log_response | Forbidden: /account/whoami/
+ERROR (2025-01-31 17:16:30,727): response_for_exception | Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'user_management:8000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING (2025-01-31 17:16:30,735): log_response | Bad Request: /account/whoami/
+WARNING (2025-01-31 17:16:51,829): log_response | Forbidden: /account/whoami/
+WARNING (2025-01-31 17:17:27,343): log_response | Forbidden: /account/whoami/
+INFO (2025-01-31 17:17:40,185): login_42 | New request to create new user using 42 OAuth2 provider
+DEBUG (2025-01-31 17:17:40,350): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 17:17:40,524): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
+DEBUG (2025-01-31 17:17:40,525): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 17:17:41,031): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
+INFO (2025-01-31 17:17:41,131): callback | login in User ybouchma@student.1337.ma
+WARNING (2025-01-31 17:17:50,595): log_response | Forbidden: /account/whoami/
+WARNING (2025-01-31 17:18:46,182): log_response | Forbidden: /account/whoami/
+WARNING (2025-01-31 17:19:08,685): log_response | Forbidden: /account/whoami/
+WARNING (2025-01-31 17:21:08,670): log_response | Unauthorized: /account/whoami/
+INFO (2025-01-31 17:21:22,070): login_42 | New request to create new user using 42 OAuth2 provider
+DEBUG (2025-01-31 17:21:22,241): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 17:21:22,398): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
+DEBUG (2025-01-31 17:21:22,399): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 17:21:22,886): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
+INFO (2025-01-31 17:21:22,898): callback | creating new User ybouchma@student.1337.ma does not exist
+DEBUG (2025-01-31 17:21:22,898): _new_conn | Starting new HTTPS connection (1): cdn.intra.42.fr:443
+DEBUG (2025-01-31 17:21:23,098): _make_request | https://cdn.intra.42.fr:443 "GET /users/79b1a559baa903aa8aafcc8307716749/small_ybouchma.jpeg HTTP/1.1" 200 7451
+INFO (2025-01-31 17:21:23,189): callback | login in User ybouchma@student.1337.ma
+WARNING (2025-01-31 17:23:50,411): log_response | Unauthorized: /account/whoami/
+WARNING (2025-01-31 17:24:21,660): log_response | Unauthorized: /account/whoami/
+INFO (2025-01-31 17:24:28,526): login_42 | New request to create new user using 42 OAuth2 provider
+DEBUG (2025-01-31 17:24:28,692): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 17:24:28,847): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
+DEBUG (2025-01-31 17:24:28,848): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 17:24:29,483): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
+INFO (2025-01-31 17:24:29,492): callback | creating new User ybouchma@student.1337.ma does not exist
+DEBUG (2025-01-31 17:24:29,493): _new_conn | Starting new HTTPS connection (1): cdn.intra.42.fr:443
+DEBUG (2025-01-31 17:24:29,692): _make_request | https://cdn.intra.42.fr:443 "GET /users/79b1a559baa903aa8aafcc8307716749/small_ybouchma.jpeg HTTP/1.1" 200 7451
+INFO (2025-01-31 17:24:29,785): callback | login in User ybouchma@student.1337.ma
+WARNING (2025-01-31 17:29:29,630): log_response | Not Found: /account/update-profile/
+WARNING (2025-01-31 17:30:11,852): log_response | Not Found: /account/update-profile/
+WARNING (2025-01-31 17:30:20,374): log_response | Not Found: /account/update-profile/
+WARNING (2025-01-31 17:31:44,297): log_response | Not Found: /account/update-profile/
+WARNING (2025-01-31 17:32:26,815): log_response | Not Found: /account/update-profile/
+WARNING (2025-01-31 17:33:14,112): log_response | Bad Request: /account/update/
+INFO (2025-01-31 17:33:25,766): login_42 | New request to create new user using 42 OAuth2 provider
+DEBUG (2025-01-31 17:33:25,933): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 17:33:26,088): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
+DEBUG (2025-01-31 17:33:26,089): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 17:33:26,552): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
+INFO (2025-01-31 17:33:26,646): callback | login in User ybouchma@student.1337.ma
+INFO (2025-01-31 17:52:07,588): login_42 | New request to create new user using 42 OAuth2 provider
+DEBUG (2025-01-31 17:52:07,745): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 17:52:07,932): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
+DEBUG (2025-01-31 17:52:07,933): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 17:52:08,410): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
+INFO (2025-01-31 17:52:08,535): callback | login in User ybouchma@student.1337.ma
+WARNING (2025-01-31 17:53:04,120): log_response | Not Found: /account/update-profile/
+INFO (2025-01-31 17:53:35,163): login_42 | New request to create new user using 42 OAuth2 provider
+DEBUG (2025-01-31 17:53:35,346): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 17:53:35,503): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
+DEBUG (2025-01-31 17:53:35,504): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 17:53:35,948): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
+INFO (2025-01-31 17:53:35,958): callback | creating new User ybouchma@student.1337.ma does not exist
+DEBUG (2025-01-31 17:53:35,958): _new_conn | Starting new HTTPS connection (1): cdn.intra.42.fr:443
+DEBUG (2025-01-31 17:53:36,184): _make_request | https://cdn.intra.42.fr:443 "GET /users/79b1a559baa903aa8aafcc8307716749/small_ybouchma.jpeg HTTP/1.1" 200 7451
+INFO (2025-01-31 17:53:36,276): callback | login in User ybouchma@student.1337.ma
+WARNING (2025-01-31 17:53:48,654): log_response | Bad Request: /account/update-profile/
+WARNING (2025-01-31 17:54:18,156): log_response | Bad Request: /account/update-profile/
+WARNING (2025-01-31 17:56:13,758): log_response | Bad Request: /account/update-profile/
+WARNING (2025-01-31 17:56:47,885): log_response | Bad Request: /account/update-profile/
+WARNING (2025-01-31 17:57:13,247): log_response | Bad Request: /account/update-profile/
+WARNING (2025-01-31 17:59:02,925): log_response | Bad Request: /account/update-profile/
+WARNING (2025-01-31 17:59:08,728): log_response | Bad Request: /account/update-profile/
+WARNING (2025-01-31 17:59:54,234): log_response | Bad Request: /account/update-profile/
+WARNING (2025-01-31 18:00:43,958): log_response | Bad Request: /account/update-profile/
+WARNING (2025-01-31 18:03:21,563): log_response | Bad Request: /account/update-profile/
+WARNING (2025-01-31 18:11:08,935): log_response | Bad Request: /account/update-profile/
+WARNING (2025-01-31 18:11:19,845): log_response | Bad Request: /account/update-profile/
+WARNING (2025-01-31 18:13:12,066): log_response | Unauthorized: /account/whoami/
+WARNING (2025-01-31 18:14:22,415): log_response | Unauthorized: /account/whoami/

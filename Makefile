@@ -13,11 +13,11 @@ re: down up
 ps:
 	@docker-compose ps -a
 logs:
-	docker-compose logs user_managment
+	docker-compose logs profile
 
 
 shell:
-	@docker-compose exec user_managment bash
+	@docker-compose exec profile bash
 
 
 clean:

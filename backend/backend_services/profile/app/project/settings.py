@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
-from datetime import timedelta
 import os
 
 
@@ -25,12 +24,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-lk@t9is2ii%1du7ylosko5evni7=)rx1!dhq24f#-4@-&226e*'
 
+
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
-AUTH_USER_MODEL = 'login.Player'
 
 LOGGING = {
     'version': 1,
@@ -54,24 +53,12 @@ LOGGING = {
     },
 }
 
-
-REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    ],
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',  # Ensures only authenticated users can access the API
-    ]
-}
-
 # Application definition
 
 INSTALLED_APPS = [
-    'login.apps.LoginConfig',
-    'oauth2_provider',
-    'rest_framework_simplejwt',
+    'pong_profile',
     'rest_framework',
-    'rest_framework_simplejwt.token_blacklist',
+    'rest_framework_simplejwt',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.messages',
@@ -79,24 +66,15 @@ INSTALLED_APPS = [
 ]
 
 
-## Load RSA keys
-with open(os.environ.get('PRIVATE_KEY_PATH'), 'r') as f:
-    PRIVATE_KEY = f.read()
+# with open(os.environ.get('PUBLIC_KEY_PATH'), 'r') as f:
+# with open('public/public_key.pem', 'r') as f:
+#     PUBLIC_KEY = f.read()
 
-with open(os.environ.get('PUBLIC_KEY_PATH'), 'r') as f:
-    PUBLIC_KEY = f.read()
-
-# JWT Configuration
-SIMPLE_JWT = {
-    'ALGORITHM': 'RS256', 
-    'SIGNING_KEY': PRIVATE_KEY,
-    'VERIFYING_KEY': PUBLIC_KEY,
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=99999), # 15min  
-    'REFRESH_TOKEN_LIFETIME': timedelta(days=3),    
-    'ROTATE_REFRESH_TOKENS': True,                  
-    'BLACKLIST_AFTER_ROTATION': True,               
-}
-
+# # JWT Configuration
+# SIMPLE_JWT = {
+#     'ALGORITHM': 'RS256',
+#     'VERIFYING_KEY': PUBLIC_KEY,
+# }
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -134,14 +112,11 @@ WSGI_APPLICATION = 'project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('NAME'),
-        'USER': os.environ.get('USER'),
-        'PASSWORD': os.environ.get('PASSWORD'),
-        'HOST': os.environ.get('HOST'),
-        'PORT': os.environ.get('PORT'),
+        'ENGINE': 'django.db.backends.sqlite3',  # Database engine
+        'NAME': BASE_DIR / 'db.sqlite3',         # Database file location
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
