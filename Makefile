@@ -17,7 +17,7 @@ logs:
 
 
 shell:
-	@docker-compose exec profile bash
+	@docker-compose exec $c bash
 
 
 clean:

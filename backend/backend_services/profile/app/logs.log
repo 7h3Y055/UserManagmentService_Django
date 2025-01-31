@@ -833,3 +833,203 @@ INFO (2025-01-31 18:14:38,896): run_with_reloader | Watching for file changes wi
 INFO (2025-01-31 18:14:50,157): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
 INFO (2025-01-31 18:14:50,374): run_with_reloader | Watching for file changes with StatReloader
 WARNING (2025-01-31 18:14:51,324): log_response | Forbidden: /profile/avatar
+INFO (2025-01-31 20:55:42,173): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 20:55:50,581): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:55:50,593): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:55:50,595): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:55:50,609): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 200 214
+INFO (2025-01-31 20:56:19,682): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:56:19,883): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 20:56:27,104): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:56:27,302): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 20:56:30,475): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:56:30,669): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 20:56:35,284): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:56:35,295): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:56:36,336): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:56:36,346): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:56:37,249): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:56:37,261): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+INFO (2025-01-31 20:56:41,935): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:56:42,142): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 20:56:44,303): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:56:44,505): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 20:56:47,205): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:56:47,219): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+INFO (2025-01-31 20:56:56,780): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:56:56,976): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 20:56:58,121): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:56:58,317): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 20:56:59,261): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:56:59,274): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:56:59,275): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:56:59,292): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 200 214
+INFO (2025-01-31 20:57:03,520): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:57:03,767): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 20:57:21,075): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/geter_seter.py changed, reloading.
+INFO (2025-01-31 20:57:21,313): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 20:57:25,483): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:57:25,494): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:57:25,495): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:57:25,512): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:57:26,220): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:57:26,231): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:57:26,232): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:57:26,248): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:57:26,717): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:57:26,728): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:57:26,729): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:57:26,744): _make_request | http://localhost:8000 "PATCH /account/update-profile/ HTTP/1.1" 200 214
+INFO (2025-01-31 20:57:32,586): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:57:32,808): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 20:57:33,957): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:57:34,160): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 20:57:37,270): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:57:37,521): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 20:57:39,627): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:57:39,819): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 20:57:41,045): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:57:41,057): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:57:42,030): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:57:42,042): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:57:42,591): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:57:42,603): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:57:43,172): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:57:43,185): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:57:43,777): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:57:43,787): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+INFO (2025-01-31 20:57:55,123): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:57:55,320): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 20:57:59,492): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:57:59,688): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-31 20:58:01,844): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:58:02,064): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 20:58:02,864): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:58:02,876): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:58:03,763): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:58:03,774): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:58:04,719): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:58:04,732): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:58:05,468): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:58:05,481): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+INFO (2025-01-31 20:58:11,292): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:58:11,558): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 20:58:11,993): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:58:12,003): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+DEBUG (2025-01-31 20:58:12,760): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:58:12,770): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+INFO (2025-01-31 20:58:16,740): trigger_reload | /home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py changed, reloading.
+INFO (2025-01-31 20:58:16,950): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 20:58:18,912): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 20:58:18,924): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+INFO (2025-01-31 20:58:18,924): avatar | Uploading new avatar ybouchma
+ERROR (2025-01-31 20:58:18,940): log_response | Internal Server Error: /profile/avatar
+Traceback (most recent call last):
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py", line 57, in avatar
+    file = open(path, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'static/profile_images/ybouchma.jpg'
+DEBUG (2025-01-31 21:00:04,891): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 21:00:04,905): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+INFO (2025-01-31 21:00:04,906): avatar | Uploading new avatar ybouchma
+ERROR (2025-01-31 21:00:04,916): log_response | Internal Server Error: /profile/avatar
+Traceback (most recent call last):
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py", line 57, in avatar
+    file = open(path, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'static/profile_images/ybouchma.jpg'
+DEBUG (2025-01-31 21:00:06,047): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 21:00:06,060): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+INFO (2025-01-31 21:00:06,060): avatar | Uploading new avatar ybouchma
+ERROR (2025-01-31 21:00:06,070): log_response | Internal Server Error: /profile/avatar
+Traceback (most recent call last):
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py", line 57, in avatar
+    file = open(path, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'static/profile_images/ybouchma.jpg'
+INFO (2025-01-31 21:00:41,168): run_with_reloader | Watching for file changes with StatReloader
+DEBUG (2025-01-31 21:00:43,462): _new_conn | Starting new HTTP connection (1): localhost:8000
+DEBUG (2025-01-31 21:00:43,476): _make_request | http://localhost:8000 "GET /account/whoami/ HTTP/1.1" 200 214
+INFO (2025-01-31 21:00:43,476): avatar | Uploading new avatar ybouchma
+ERROR (2025-01-31 21:00:43,489): log_response | Internal Server Error: /profile/avatar
+Traceback (most recent call last):
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/user_managment/app/venv_for_test/lib/python3.13/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/yoss/ft_transcendence/backend/backend_services/profile/app/pong_profile/views/avatar.py", line 57, in avatar
+    file = open(path, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: '/app/profile_images/ybouchma.jpg'
