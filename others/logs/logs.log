@@ -1,0 +1,24 @@
+INFO (2025-01-31 12:22:50,032): login_42 | New request to create new user using 42 OAuth2 provider
+DEBUG (2025-01-31 12:22:50,178): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 12:22:50,338): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
+DEBUG (2025-01-31 12:22:50,339): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 12:22:50,849): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
+INFO (2025-01-31 12:22:50,861): callback | creating new User ybouchma@student.1337.ma does not exist
+DEBUG (2025-01-31 12:22:50,861): _new_conn | Starting new HTTPS connection (1): cdn.intra.42.fr:443
+DEBUG (2025-01-31 12:22:51,093): _make_request | https://cdn.intra.42.fr:443 "GET /users/79b1a559baa903aa8aafcc8307716749/small_ybouchma.jpeg HTTP/1.1" 200 7451
+INFO (2025-01-31 12:22:51,187): callback | login in User ybouchma@student.1337.ma
+INFO (2025-01-31 12:23:13,021): login_42 | New request to create new user using 42 OAuth2 provider
+DEBUG (2025-01-31 12:23:13,129): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 12:23:13,287): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
+DEBUG (2025-01-31 12:23:13,288): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-01-31 12:23:13,753): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
+INFO (2025-01-31 12:23:13,850): callback | login in User ybouchma@student.1337.ma
+INFO (2025-01-31 12:23:34,429): google_login | New request to create new user using google OAuth2 provider
+DEBUG (2025-01-31 12:23:34,702): _new_conn | Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG (2025-01-31 12:23:34,875): _make_request | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+DEBUG (2025-01-31 12:23:34,876): _new_conn | Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG (2025-01-31 12:23:35,051): _make_request | https://www.googleapis.com:443 "GET /oauth2/v1/userinfo HTTP/1.1" 200 None
+INFO (2025-01-31 12:23:35,060): callback | creating new User javamiya7@gmail.com does not exist
+DEBUG (2025-01-31 12:23:35,060): _new_conn | Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+DEBUG (2025-01-31 12:23:35,706): _make_request | https://lh3.googleusercontent.com:443 "GET /a/ACg8ocIATyogdzuy3HkzMfhzfW0XkIUS-6dTgw2bjfR8-E0QYVKbh104=s96-c HTTP/1.1" 200 11085
+INFO (2025-01-31 12:23:35,803): callback | login in User javamiya7@gmail.com

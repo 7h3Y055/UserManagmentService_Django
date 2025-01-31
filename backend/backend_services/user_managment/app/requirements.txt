@@ -1,0 +1,7 @@
+django
+django-oauth-toolkit
+psycopg2
+djangorestframework
+djangorestframework-simplejwt
+pyjwt
+gunicorn
