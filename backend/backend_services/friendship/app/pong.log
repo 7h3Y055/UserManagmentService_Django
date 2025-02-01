@@ -1,0 +1,2060 @@
+INFO (2025-01-08 10:28:20,278): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:30:34,112): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-08 10:31:03,818): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/friendship/friendship/viwes/get_all.py", line 8, in get_friends
+    return JsonResponse('')
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/http/response.py", line 726, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+WARNING (2025-01-08 10:31:04,604): log_response | Not Found: /favicon.ico
+INFO (2025-01-08 10:31:32,866): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-08 10:31:33,427): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:34:20,760): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-08 10:34:21,338): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-08 10:34:23,569): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/friendship/friendship/viwes/get_all.py", line 7, in get_friends
+    if limit != int(limit) or offset != int(offset):
+                ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: '33<'
+INFO (2025-01-08 10:34:57,076): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-08 10:34:57,656): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:35:43,225): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-08 10:35:44,056): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:36:17,550): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-08 10:36:18,020): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:38:42,516): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 10:38:48,833): log_response | Bad Request: /friends/
+INFO (2025-01-08 10:40:19,456): trigger_reload | /home/youssef/friendship/friendship/urls.py changed, reloading.
+INFO (2025-01-08 10:40:20,034): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:41:51,707): trigger_reload | /home/youssef/friendship/friendship/urls.py changed, reloading.
+INFO (2025-01-08 10:41:52,216): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:43:41,198): trigger_reload | /home/youssef/friendship/friendship/viwes/__init__.py changed, reloading.
+INFO (2025-01-08 10:43:42,192): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:44:06,683): trigger_reload | /home/youssef/friendship/friendship/urls.py changed, reloading.
+INFO (2025-01-08 10:44:07,229): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 10:44:21,954): log_response | Not Found: /friends/1/request
+INFO (2025-01-08 10:46:37,296): trigger_reload | /home/youssef/friendship/friendship/urls.py changed, reloading.
+INFO (2025-01-08 10:46:37,905): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-08 10:46:40,308): log_response | Internal Server Error: /friends/1/request
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: send_friend_request() got an unexpected keyword argument 'user_id'
+INFO (2025-01-08 10:46:54,386): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 10:46:55,460): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:47:06,775): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 10:47:07,380): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 10:47:23,991): log_response | Not Found: /friends/1110-111/request
+WARNING (2025-01-08 10:47:30,940): log_response | Not Found: /friends/1110111
+INFO (2025-01-08 10:48:08,047): trigger_reload | /home/youssef/friendship/friendship/urls.py changed, reloading.
+INFO (2025-01-08 10:48:08,773): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:49:11,445): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 10:49:11,958): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:50:25,473): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 10:50:25,976): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:50:54,338): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 10:50:54,951): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:51:10,202): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 10:51:10,875): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-08 10:51:16,878): log_response | Internal Server Error: /friends/2/request
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/friendship/friendship/viwes/request.py", line 5, in send_friend_request
+    if not req.user.is_authentication:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/utils/functional.py", line 253, in inner
+    return func(_wrapped, *args)
+AttributeError: 'AnonymousUser' object has no attribute 'is_authentication'. Did you mean: 'is_authenticated'?
+INFO (2025-01-08 10:51:29,318): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 10:51:30,023): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:51:47,299): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 10:51:47,921): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 10:51:49,917): log_response | Unauthorized: /friends/2/request
+WARNING (2025-01-08 10:51:50,780): log_response | Unauthorized: /friends/2/request
+INFO (2025-01-08 10:52:22,489): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 10:54:54,586): log_response | Not Found: /favicon.ico
+INFO (2025-01-08 10:57:57,637): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 10:57:58,210): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:58:18,670): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 10:58:19,633): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 10:59:32,437): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 10:59:33,005): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:01:23,023): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:01:23,622): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:02:10,192): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:02:10,743): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:02:28,192): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:02:28,949): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:02:40,297): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:02:40,846): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:04:53,037): trigger_reload | /home/youssef/friendship/friendship/models.py changed, reloading.
+INFO (2025-01-08 11:04:53,571): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:05:22,986): trigger_reload | /home/youssef/friendship/friendship/models.py changed, reloading.
+INFO (2025-01-08 11:05:23,610): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:05:35,865): trigger_reload | /home/youssef/friendship/friendship/models.py changed, reloading.
+INFO (2025-01-08 11:05:36,385): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:10:20,353): trigger_reload | /home/youssef/friendship/friendship/models.py changed, reloading.
+INFO (2025-01-08 11:10:20,827): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:10:24,980): trigger_reload | /home/youssef/friendship/friendship/models.py changed, reloading.
+INFO (2025-01-08 11:10:25,792): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:10:36,956): trigger_reload | /home/youssef/friendship/friendship/models.py changed, reloading.
+INFO (2025-01-08 11:10:37,537): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:11:13,858): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:11:31,218): trigger_reload | /home/youssef/friendship/friendship/models.py changed, reloading.
+INFO (2025-01-08 11:11:32,164): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 11:14:19,989): log_response | Not Found: /friends/02p/request
+INFO (2025-01-08 11:15:42,000): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:15:42,602): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:15:56,804): trigger_reload | /home/youssef/friendship/friendship/models.py changed, reloading.
+INFO (2025-01-08 11:15:57,860): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:16:14,120): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:16:15,190): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:16:38,600): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:16:39,543): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:19:02,459): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:19:03,048): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:19:31,435): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:19:32,037): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-08 11:19:34,272): log_response | Internal Server Error: /friends/02/request
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.UndefinedTable: relation "pong_friendship" does not exist
+LINE 1: ...p"."received_id", "pong_friendship"."status" FROM "pong_frie...
+                                                             ^
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/youssef/friendship/friendship/viwes/request.py", line 14, in send_friend_request
+    Friendship.objects.get(sender_id=req.user.id, received_id=user.id)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+django.db.utils.ProgrammingError: relation "pong_friendship" does not exist
+LINE 1: ...p"."received_id", "pong_friendship"."status" FROM "pong_frie...
+                                                             ^
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.UndefinedTable: relation "pong_friendship" does not exist
+LINE 1: INSERT INTO "pong_friendship" ("sender_id", "received_id", "...
+                    ^
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/friendship/friendship/viwes/request.py", line 17, in send_friend_request
+    Friendship.objects.create(sender_id=req.user.id, received_id=user.id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/base.py", line 1161, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/base.py", line 1202, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+django.db.utils.ProgrammingError: relation "pong_friendship" does not exist
+LINE 1: INSERT INTO "pong_friendship" ("sender_id", "received_id", "...
+                    ^
+INFO (2025-01-08 11:20:13,064): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:32:40,929): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:34:24,701): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:34:25,270): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 11:34:46,299): log_response | Not Found: /friends/01/accept
+INFO (2025-01-08 11:35:34,931): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:35:35,577): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:36:49,293): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:36:49,805): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 11:37:06,016): log_response | Bad Request: /friends/01/request/accept
+WARNING (2025-01-08 11:37:07,162): log_response | Bad Request: /friends/01/request/accept
+WARNING (2025-01-08 11:37:10,548): log_response | Bad Request: /friends/019999/request/accept
+WARNING (2025-01-08 11:37:16,504): log_response | Bad Request: /friends/99999999999999999999999999999999999999999999999999999/request/accept
+INFO (2025-01-08 11:37:23,268): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:37:23,754): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:37:33,020): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:37:33,805): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:38:05,160): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:38:05,897): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:38:17,245): trigger_reload | /home/youssef/friendship/friendship/viwes/__init__.py changed, reloading.
+INFO (2025-01-08 11:38:17,965): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:38:25,215): trigger_reload | /home/youssef/friendship/friendship/urls.py changed, reloading.
+INFO (2025-01-08 11:38:26,233): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:38:59,621): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:39:00,109): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 11:39:27,116): log_response | Bad Request: /friends/1/request/reject
+WARNING (2025-01-08 11:40:10,499): log_response | Bad Request: /friends/1/request/reject
+INFO (2025-01-08 11:40:28,840): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:40:29,317): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:40:32,676): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:40:33,191): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:44:45,941): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:44:46,764): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:46:01,480): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:46:02,141): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:46:09,455): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:46:09,953): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:50:32,757): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:50:33,337): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:51:20,825): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:51:21,332): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 11:51:27,321): log_response | Method Not Allowed: /friends/5/request/reject
+WARNING (2025-01-08 11:51:30,857): log_response | Method Not Allowed: /friends/5/request/reject
+WARNING (2025-01-08 11:51:31,390): log_response | Method Not Allowed: /friends/5/request/reject
+WARNING (2025-01-08 11:51:31,821): log_response | Method Not Allowed: /friends/5/request/reject
+WARNING (2025-01-08 11:51:32,268): log_response | Method Not Allowed: /friends/5/request/reject
+INFO (2025-01-08 11:51:47,795): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:51:48,740): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 11:51:51,297): log_response | Method Not Allowed: /friends/5/request/reject
+WARNING (2025-01-08 11:51:52,147): log_response | Method Not Allowed: /friends/5/request/reject
+WARNING (2025-01-08 11:52:03,971): log_response | Not Found: /friends/5/request/
+WARNING (2025-01-08 11:52:11,202): log_response | Bad Request: /friends/5/request
+INFO (2025-01-08 11:52:32,240): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:52:33,258): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:52:51,580): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:52:52,109): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:53:09,486): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 11:53:09,967): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:54:24,664): trigger_reload | /home/youssef/friendship/friendship/viwes/__init__.py changed, reloading.
+INFO (2025-01-08 11:54:25,752): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:55:03,134): trigger_reload | /home/youssef/friendship/friendship/viwes/__init__.py changed, reloading.
+INFO (2025-01-08 11:55:03,869): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:55:44,517): trigger_reload | /home/youssef/friendship/friendship/urls.py changed, reloading.
+INFO (2025-01-08 11:55:45,402): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:56:33,920): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 11:56:34,400): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 11:56:40,436): log_response | Method Not Allowed: /friends/02/block
+INFO (2025-01-08 11:56:51,917): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 11:56:52,404): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:57:07,679): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 11:57:08,186): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:57:12,476): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 11:57:12,959): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 11:58:14,455): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 11:58:15,178): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:04:26,151): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:04:27,009): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:06:43,217): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:06:43,707): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:10:33,255): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:10:34,004): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 12:10:45,104): log_response | Method Not Allowed: /friends/02/block
+INFO (2025-01-08 12:11:05,515): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:11:06,137): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:11:28,492): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:11:28,985): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:12:31,633): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:12:32,494): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:12:49,838): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:12:50,589): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:12:54,893): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:12:55,402): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 12:13:14,329): log_response | Bad Request: /friends/01/block
+INFO (2025-01-08 12:15:24,541): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:15:25,242): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:15:27,445): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:15:27,954): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:15:49,308): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:15:49,866): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:16:46,513): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:16:47,007): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:17:09,310): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:17:09,820): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 12:17:32,083): log_response | Bad Request: /friends/03/block
+WARNING (2025-01-08 12:17:34,626): log_response | Bad Request: /friends/03/block
+WARNING (2025-01-08 12:17:34,820): log_response | Bad Request: /friends/03/block
+INFO (2025-01-08 12:18:21,509): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:18:21,991): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:18:56,506): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:18:57,002): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 12:18:58,369): log_response | Bad Request: /friends/02/block
+INFO (2025-01-08 12:19:52,648): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:19:53,128): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:20:18,555): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:20:19,067): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:20:49,536): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:20:50,014): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:21:21,541): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:21:22,050): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:21:45,532): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:21:46,027): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:21:55,270): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:21:55,807): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 12:21:58,366): log_response | Method Not Allowed: /friends/02/block
+INFO (2025-01-08 12:22:28,265): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:22:28,751): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 12:22:30,713): log_response | Bad Request: /friends/02/block
+WARNING (2025-01-08 12:22:32,757): log_response | Bad Request: /friends/02/block
+INFO (2025-01-08 12:23:01,214): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:23:01,983): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 12:23:02,663): log_response | Bad Request: /friends/02/block
+WARNING (2025-01-08 12:23:03,599): log_response | Bad Request: /friends/02/block
+INFO (2025-01-08 12:23:18,328): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:23:19,316): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:23:28,569): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:23:29,079): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 12:23:34,154): log_response | Bad Request: /friends/02/block
+WARNING (2025-01-08 12:23:36,036): log_response | Bad Request: /friends/02/block
+INFO (2025-01-08 12:23:43,439): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 12:23:44,016): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:24:56,729): trigger_reload | /home/youssef/friendship/friendship/urls.py changed, reloading.
+INFO (2025-01-08 12:24:57,474): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:25:11,651): trigger_reload | /home/youssef/friendship/friendship/urls.py changed, reloading.
+INFO (2025-01-08 12:25:12,569): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:27:35,769): trigger_reload | /home/youssef/friendship/friendship/viwes/__init__.py changed, reloading.
+INFO (2025-01-08 12:27:36,688): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:27:41,955): trigger_reload | /home/youssef/friendship/friendship/urls.py changed, reloading.
+INFO (2025-01-08 12:27:42,505): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:28:44,129): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-08 12:28:44,629): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 12:28:55,200): log_response | Bad Request: /friends/05
+INFO (2025-01-08 12:29:27,132): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-08 12:29:27,610): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:31:10,395): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-08 12:31:10,895): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:32:12,521): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-08 12:32:13,012): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 12:32:33,436): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-08 12:32:34,051): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 13:24:44,555): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 13:24:45,044): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 13:25:00,136): log_response | Method Not Allowed: /friends/01/request
+INFO (2025-01-08 13:25:35,635): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 13:25:36,199): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 13:26:00,447): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 13:26:01,089): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 13:26:14,404): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 13:26:14,890): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 13:26:36,158): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 13:26:36,634): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 13:28:26,685): log_response | Method Not Allowed: /friends/1/request
+WARNING (2025-01-08 13:28:52,291): log_response | Bad Request: /friends/1/request/accept
+WARNING (2025-01-08 13:29:12,497): log_response | Not Found: /friends/1/request/block
+WARNING (2025-01-08 13:29:33,143): log_response | Bad Request: /friends/1/block
+INFO (2025-01-08 13:29:42,129): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 13:29:42,622): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 13:30:58,731): log_response | Method Not Allowed: /friends/1/block
+WARNING (2025-01-08 13:31:41,985): log_response | Method Not Allowed: /friends/1/block
+WARNING (2025-01-08 13:32:33,801): log_response | Method Not Allowed: /friends/1/block
+INFO (2025-01-08 13:32:52,140): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 13:32:52,635): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 13:37:46,534): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 13:37:47,023): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 13:44:28,790): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 13:44:29,650): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 13:45:59,160): log_response | Bad Request: /friends/1/block
+WARNING (2025-01-08 13:46:00,404): log_response | Bad Request: /friends/1/block
+WARNING (2025-01-08 13:46:21,152): log_response | Bad Request: /friends/1/block
+WARNING (2025-01-08 13:46:58,159): log_response | Bad Request: /friends/1/block
+INFO (2025-01-08 13:47:22,998): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 13:47:23,481): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 13:51:59,199): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 13:51:59,712): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 13:52:22,049): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 13:52:22,826): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 13:56:06,382): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-08 13:56:07,211): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 13:59:35,857): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-08 13:59:36,353): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 13:59:44,630): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-08 13:59:45,120): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 14:00:35,690): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-08 14:00:36,171): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 14:04:15,643): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-08 14:04:16,147): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 14:04:23,424): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-08 14:04:23,957): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 14:04:29,088): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-08 14:04:29,606): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-08 14:04:38,433): log_response | Bad Request: /friends/1
+WARNING (2025-01-08 14:04:57,177): log_response | Bad Request: /friends/1/request/accept
+WARNING (2025-01-08 14:05:12,371): log_response | Bad Request: /friends/1/block
+INFO (2025-01-08 14:05:53,386): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 14:05:54,328): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 14:06:03,673): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 14:06:04,158): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 14:07:16,831): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-08 14:07:17,608): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-08 14:07:18,822): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-08 14:07:19,456): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 10:41:46,159): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 10:41:58,606): log_response | Not Found: /friends/
+WARNING (2025-01-09 10:41:59,022): log_response | Not Found: /favicon.ico
+INFO (2025-01-09 10:42:23,799): trigger_reload | /home/youssef/friendship/friendship/urls.py changed, reloading.
+INFO (2025-01-09 10:42:24,379): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 10:42:49,160): log_response | Bad Request: /friends/
+WARNING (2025-01-09 10:42:54,493): log_response | Bad Request: /friends/
+WARNING (2025-01-09 10:43:08,049): log_response | Bad Request: /friends/
+INFO (2025-01-09 10:44:15,430): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 10:44:15,986): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 10:44:38,421): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 10:44:39,030): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 10:44:57,652): log_response | Bad Request: /friends/
+INFO (2025-01-09 10:47:28,443): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 10:47:29,347): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 10:49:26,005): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 10:49:27,206): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 10:51:27,033): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 10:51:28,464): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 10:53:18,378): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 10:53:19,244): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 10:53:57,747): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 10:53:58,317): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 10:54:18,568): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 10:54:19,106): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 10:54:44,524): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 10:54:45,097): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 10:57:50,809): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 10:57:51,387): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 10:58:23,975): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 10:58:24,645): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 10:58:32,125): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 10:58:32,919): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:00:52,276): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:00:52,861): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:01:45,554): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:01:46,111): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:02:01,686): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:02:02,973): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:02:04,124): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:02:04,804): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:02:11,386): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:02:12,005): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:03:10,703): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:03:11,296): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:03:39,740): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:03:40,907): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:04:31,507): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:04:32,047): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:05:07,608): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:05:08,584): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:05:16,945): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:05:17,480): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:05:39,188): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:05:39,783): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:05:55,997): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:05:56,534): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:06:23,073): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:06:23,857): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:07:04,561): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:07:05,104): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:07:43,731): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:07:44,334): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:07:53,753): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:07:54,529): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:08:14,006): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:08:14,544): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:08:15,691): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:08:16,588): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:08:39,142): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:08:39,743): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:08:46,132): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:08:46,708): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:10:23,734): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:10:24,315): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:10:53,887): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:10:54,490): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:11:58,966): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:11:59,490): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:13:42,414): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:13:42,950): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:15:01,740): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:15:02,308): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:15:24,843): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:15:25,376): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:16:16,148): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:16:17,062): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:18:03,941): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:18:04,437): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:18:09,836): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:18:10,493): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:18:40,991): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:18:41,484): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:19:06,032): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:19:06,583): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:19:20,044): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:19:20,576): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:20:40,466): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:20:40,981): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:20:53,382): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:20:53,873): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:21:19,490): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:21:20,022): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:21:51,593): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:21:52,209): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:22:18,735): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:22:19,341): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:22:45,898): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:22:47,007): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:31:27,061): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:32:04,682): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:32:05,213): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:32:27,693): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:32:28,526): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:33:41,454): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:33:42,014): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:33:50,364): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:33:50,932): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:33:58,259): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:33:58,885): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:34:48,562): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:34:49,224): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:34:53,368): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:34:53,888): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:35:43,609): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:35:44,155): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-09 11:35:48,041): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/friendship/friendship/viwes/get_all.py", line 32, in get_friends
+    return JsonResponse(UserSerializer(fr[1]).data, many=True,status=200)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/http/response.py", line 734, in __init__
+    super().__init__(content=data, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/http/response.py", line 374, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: HttpResponseBase.__init__() got an unexpected keyword argument 'many'
+INFO (2025-01-09 11:36:09,620): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:36:10,145): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:36:32,548): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:36:33,365): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-09 11:36:34,667): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/friendship/friendship/viwes/get_all.py", line 34, in get_friends
+    return JsonResponse(UserSerializer(fr[1], many=True).data,status=200)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+                                                   ^^^^^^^^
+TypeError: 'Player' object is not iterable
+INFO (2025-01-09 11:36:41,863): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:36:42,415): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-09 11:36:43,469): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/friendship/friendship/viwes/get_all.py", line 34, in get_friends
+    return JsonResponse(UserSerializer(fr, many=True).data,status=200)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/http/response.py", line 726, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+INFO (2025-01-09 11:37:38,150): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:37:38,692): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:37:49,077): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:37:49,748): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-09 11:37:54,349): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/friendship/friendship/viwes/get_all.py", line 34, in get_friends
+    return JsonResponse(serialized.data,status=200)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/http/response.py", line 726, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+INFO (2025-01-09 11:38:11,273): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:38:11,757): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:38:38,147): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:38:38,643): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-09 11:38:39,954): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/friendship/friendship/viwes/get_all.py", line 34, in get_friends
+    return JsonResponse(serialized.data,status=200, safe=True)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/http/response.py", line 726, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+INFO (2025-01-09 11:40:30,043): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:40:30,701): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:40:39,107): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:40:39,775): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:41:01,317): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 11:41:02,038): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:42:09,944): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 11:42:11,378): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:47:11,279): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 11:47:11,780): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:47:19,132): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 11:47:19,765): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:47:37,997): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 11:47:38,501): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-09 11:47:41,290): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/friendship/friendship/viwes/get_all.py", line 34, in get_friends
+    return JsonResponse({'friends':serialized.data},status=200)
+                                   ^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `bla` is not valid for model `Player` in `friendship.viwes.serializer.UserSerializer`.
+INFO (2025-01-09 11:48:11,076): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 11:48:11,591): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-09 11:48:13,145): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/friendship/friendship/viwes/get_all.py", line 34, in get_friends
+    return JsonResponse({'friends':serialized.data},status=200)
+                                   ^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `bla` is not valid for model `Player` in `friendship.viwes.serializer.UserSerializer`.
+INFO (2025-01-09 11:48:38,075): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 11:48:38,621): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:48:47,932): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 11:48:48,427): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:48:55,737): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 11:48:56,313): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-09 11:48:58,824): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/friendship/friendship/viwes/get_all.py", line 34, in get_friends
+    return JsonResponse({'friends':serialized.data},status=200)
+                                   ^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `is_active_user` is not valid for model `Player` in `friendship.viwes.serializer.UserSerializer`.
+ERROR (2025-01-09 11:48:59,585): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/friendship/friendship/viwes/get_all.py", line 34, in get_friends
+    return JsonResponse({'friends':serialized.data},status=200)
+                                   ^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `is_active_user` is not valid for model `Player` in `friendship.viwes.serializer.UserSerializer`.
+INFO (2025-01-09 11:52:21,169): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 11:52:22,116): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 11:52:30,531): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 11:52:31,086): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:16:55,387): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:16:56,112): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:17:09,870): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:17:11,027): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:18:02,494): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 14:18:03,430): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:18:28,049): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 14:18:28,730): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 14:19:38,367): log_response | Bad Request: /friends/
+INFO (2025-01-09 14:20:44,020): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 14:20:45,605): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:21:17,915): trigger_reload | /home/youssef/friendship/friendship/urls.py changed, reloading.
+INFO (2025-01-09 14:21:19,067): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 14:26:33,836): log_response | Bad Request: /friends/3
+INFO (2025-01-09 14:27:18,091): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:27:18,664): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:28:01,829): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:28:02,906): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:28:36,375): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:28:37,852): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:28:51,778): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:28:52,668): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:28:59,182): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:28:59,892): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:29:39,503): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:29:42,200): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:30:16,980): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:30:18,401): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:31:32,158): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:31:32,745): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:32:21,329): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:32:22,384): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:35:49,073): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:35:49,634): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:36:10,121): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:36:10,686): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 14:36:11,935): log_response | Bad Request: /friends/6
+INFO (2025-01-09 14:36:38,347): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:36:39,688): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 14:36:40,803): log_response | Bad Request: /friends/6
+WARNING (2025-01-09 14:36:41,674): log_response | Bad Request: /friends/6
+INFO (2025-01-09 14:36:56,159): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:36:56,859): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 14:38:40,538): log_response | Not Found: /friends4
+INFO (2025-01-09 14:39:25,526): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:39:26,233): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 14:39:27,688): log_response | Bad Request: /friends/4
+INFO (2025-01-09 14:40:53,908): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:40:54,669): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:41:01,902): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:41:02,715): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 14:41:05,755): log_response | Bad Request: /friends/4
+INFO (2025-01-09 14:41:16,319): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:41:17,313): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 14:41:18,363): log_response | Bad Request: /friends/4
+WARNING (2025-01-09 14:41:19,219): log_response | Bad Request: /friends/4
+INFO (2025-01-09 14:41:28,937): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:41:29,519): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:41:35,932): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:41:36,750): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:42:03,271): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:42:03,863): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:43:27,936): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:43:28,482): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:43:46,854): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:43:47,365): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:44:02,844): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:44:03,366): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:44:27,868): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:44:28,400): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:44:55,930): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:44:56,486): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:47:29,925): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:47:30,663): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:49:26,289): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:49:26,936): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:49:39,633): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:49:40,337): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:50:09,094): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:50:10,827): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:51:25,915): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:51:27,118): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:53:07,508): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-09 14:53:08,146): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:53:33,749): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-09 14:53:34,565): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:53:56,185): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:53:56,808): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:54:18,578): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:54:19,279): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:54:51,933): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:54:53,081): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:55:36,314): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:55:36,889): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:56:42,921): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:56:44,142): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:57:08,053): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:57:08,685): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:57:32,374): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:57:32,971): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:58:09,672): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:58:10,301): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:58:24,943): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 14:58:25,560): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:58:55,359): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 14:58:55,991): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:59:19,531): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 14:59:20,170): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:59:28,340): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 14:59:28,855): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 14:59:58,428): trigger_reload | /home/youssef/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-09 14:59:59,206): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:00:04,520): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 15:00:05,057): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:00:39,664): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-09 15:00:40,205): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:00:50,744): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-09 15:00:51,706): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:09:01,526): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:09:49,151): log_response | Method Not Allowed: /friends/6/block
+INFO (2025-01-09 15:10:04,420): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-09 15:10:04,940): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:10:15,279): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-09 15:10:16,272): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:10:40,149): log_response | Method Not Allowed: /friends/6/request
+INFO (2025-01-09 15:10:50,961): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:10:51,493): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:10:58,889): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:10:59,501): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:12:01,586): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:12:12,686): log_response | Method Not Allowed: /friends/7/request/accept
+INFO (2025-01-09 15:12:22,012): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:12:22,627): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:12:24,659): log_response | Bad Request: /friends/7/request/accept
+INFO (2025-01-09 15:14:40,919): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:14:41,471): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-09 15:14:43,350): log_response | Internal Server Error: /friends/7/request/accept
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/youssef/friendship/friendship/viwes/request.py", line 45, in accept_request
+    fs = Friendship.objects.get(received_id=req.user.id, sender_id=user_id, status='PN')
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+friendship.models.Friendship.DoesNotExist: Friendship matching query does not exist.
+INFO (2025-01-09 15:15:08,955): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:15:09,490): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:15:11,062): log_response | Bad Request: /friends/7/request/accept
+INFO (2025-01-09 15:15:22,910): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:15:23,523): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:15:24,768): log_response | Bad Request: /friends/7/request/accept
+WARNING (2025-01-09 15:15:33,228): log_response | Bad Request: /friends/07/request/accept
+INFO (2025-01-09 15:15:49,173): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:15:49,742): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:15:50,993): log_response | Bad Request: /friends/07/request/accept
+INFO (2025-01-09 15:16:52,654): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:21:01,292): log_response | Not Found: /favicon.ico
+WARNING (2025-01-09 15:21:07,084): log_response | Not Found: /favicon.ico
+WARNING (2025-01-09 15:21:17,348): log_response | Method Not Allowed: /friends/8/block
+INFO (2025-01-09 15:21:27,497): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-09 15:21:28,058): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:21:51,117): log_response | Method Not Allowed: /friends/9/request
+WARNING (2025-01-09 15:21:51,191): log_response | Not Found: /favicon.ico
+WARNING (2025-01-09 15:22:17,195): log_response | Method Not Allowed: /friends/9/request
+INFO (2025-01-09 15:22:32,845): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:22:33,354): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:24:58,602): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:24:59,117): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:25:18,454): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:25:18,967): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:25:24,848): log_response | Bad Request: /friends/9/request
+INFO (2025-01-09 15:25:45,401): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:25:45,919): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:26:42,608): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:26:43,150): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:26:54,497): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:26:55,087): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:29:37,259): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:29:37,766): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:30:08,276): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-09 15:30:08,775): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:30:23,154): trigger_reload | /home/youssef/friendship/friendship/viwes/block.py changed, reloading.
+INFO (2025-01-09 15:30:23,794): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:31:16,420): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:31:16,923): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:31:19,870): log_response | Method Not Allowed: /friends/8/request
+WARNING (2025-01-09 15:31:29,135): log_response | Method Not Allowed: /friends/8/request
+INFO (2025-01-09 15:31:51,404): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:31:51,898): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:31:53,536): log_response | Method Not Allowed: /friends/8/request
+INFO (2025-01-09 15:33:12,682): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:33:13,221): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:33:16,553): log_response | Method Not Allowed: /friends/8/request
+INFO (2025-01-09 15:33:21,716): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:33:22,643): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:33:23,852): log_response | Bad Request: /friends/8/request
+WARNING (2025-01-09 15:33:24,696): log_response | Bad Request: /friends/8/request
+INFO (2025-01-09 15:33:33,029): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:33:33,578): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:33:34,894): log_response | Method Not Allowed: /friends/8/request
+WARNING (2025-01-09 15:33:35,888): log_response | Method Not Allowed: /friends/8/request
+WARNING (2025-01-09 15:34:15,577): log_response | Method Not Allowed: /friends/9/request
+INFO (2025-01-09 15:34:46,352): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:34:46,915): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:34:48,194): log_response | Method Not Allowed: /friends/9/request
+WARNING (2025-01-09 15:34:50,388): log_response | Method Not Allowed: /friends/8/request
+INFO (2025-01-09 15:35:03,318): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:35:03,941): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:35:05,836): log_response | Method Not Allowed: /friends/8/request
+INFO (2025-01-09 15:35:29,357): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:35:29,860): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:35:32,429): log_response | Method Not Allowed: /friends/8/request
+WARNING (2025-01-09 15:35:34,512): log_response | Method Not Allowed: /friends/8/request
+INFO (2025-01-09 15:35:39,193): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:35:40,297): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:35:41,623): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:35:42,184): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:36:42,410): log_response | Method Not Allowed: /friends/9/request
+WARNING (2025-01-09 15:36:57,275): log_response | Method Not Allowed: /friends/8/request
+INFO (2025-01-09 15:37:30,141): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:37:30,678): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:37:40,796): log_response | Method Not Allowed: /friends/8/request
+INFO (2025-01-09 15:37:53,041): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:37:53,562): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:37:55,463): log_response | Method Not Allowed: /friends/8/request
+INFO (2025-01-09 15:38:30,050): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:38:30,664): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:39:16,084): log_response | Bad Request: /friends/1/block
+WARNING (2025-01-09 15:40:10,595): log_response | Method Not Allowed: /friends/1/block
+INFO (2025-01-09 15:41:26,974): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 15:41:27,499): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:41:55,008): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 15:41:55,483): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:43:07,231): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-09 15:43:07,790): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:45:39,295): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 15:45:40,101): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:45:47,368): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 15:45:47,882): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:45:58,184): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 15:45:58,838): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:46:16,476): log_response | Bad Request: /friends/8/block
+INFO (2025-01-09 15:49:12,317): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 15:49:12,841): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:49:57,468): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 15:49:58,020): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:50:26,567): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 15:50:27,208): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:50:41,570): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 15:50:42,115): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:51:03,578): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 15:51:04,083): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:51:12,574): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 15:51:13,173): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:51:49,850): log_response | Bad Request: /friends/7
+INFO (2025-01-09 15:53:47,634): trigger_reload | /home/youssef/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-09 15:53:48,186): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:54:16,115): log_response | Bad Request: /friends/8/block
+WARNING (2025-01-09 15:55:22,423): log_response | Forbidden (CSRF cookie not set.): /friends/1
+WARNING (2025-01-09 15:55:35,638): log_response | Bad Request: /friends/1
+INFO (2025-01-09 15:55:55,199): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-09 15:55:55,728): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:55:57,461): log_response | Bad Request: /friends/1
+WARNING (2025-01-09 15:56:25,686): log_response | Bad Request: /friends/1
+WARNING (2025-01-09 15:57:38,581): log_response | Method Not Allowed: /friends/8/request/accept
+INFO (2025-01-09 15:58:02,955): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:58:03,566): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 15:58:07,868): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 15:58:08,601): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 15:58:23,123): log_response | Forbidden (CSRF cookie not set.): /friends/8
+WARNING (2025-01-09 15:58:56,837): log_response | Forbidden (CSRF cookie not set.): /friends/9
+INFO (2025-01-09 16:00:09,782): trigger_reload | /home/youssef/friendship/friendship/viwes/info.py changed, reloading.
+INFO (2025-01-09 16:00:10,718): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 16:01:30,390): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:01:30,887): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 16:02:12,233): log_response | Bad Request: /friends/8/request
+INFO (2025-01-09 16:05:16,569): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:05:17,063): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 16:08:12,488): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:08:12,992): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 16:09:32,055): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:09:32,558): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 16:09:44,052): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:09:44,560): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-09 16:09:58,597): log_response | Internal Server Error: /friends/9/request
+Traceback (most recent call last):
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/youssef/friendship/friendship/viwes/request.py", line 23, in send_friend_request
+    print(fs.get(status='BL').status)
+          ~~~~~~^^^^^^^^^^^^^
+  File "/home/youssef/venv/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+friendship.models.Friendship.DoesNotExist: Friendship matching query does not exist.
+INFO (2025-01-09 16:10:41,589): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:10:42,279): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 16:10:55,720): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:10:56,267): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 16:11:12,796): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:11:13,302): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 16:11:29,803): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:11:30,317): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 16:11:51,788): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:11:52,286): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 16:13:30,218): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:13:30,745): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 16:13:44,089): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:13:44,601): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 16:14:05,933): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:14:06,482): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 16:14:11,808): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:14:12,407): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 16:15:46,172): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:15:46,673): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-09 16:16:03,902): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:16:04,410): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 16:16:56,094): log_response | Not Found: /friends/8/request/accepy
+WARNING (2025-01-09 16:17:30,362): log_response | Bad Request: /friends/8/request
+WARNING (2025-01-09 16:17:42,079): log_response | Bad Request: /friends/8/request
+WARNING (2025-01-09 16:17:57,521): log_response | Bad Request: /friends/8/request
+INFO (2025-01-09 16:18:14,476): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:18:14,974): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-09 16:18:26,690): log_response | Bad Request: /friends/8/request
+INFO (2025-01-09 16:19:05,632): trigger_reload | /home/youssef/friendship/friendship/viwes/request.py changed, reloading.
+INFO (2025-01-09 16:19:06,778): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 11:47:54,191): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 11:48:47,094): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 11:49:04,030): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 11:50:41,673): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 11:50:41,945): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 11:51:16,251): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 11:51:16,510): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 11:51:19,359): log_response | Bad Request: /friends/
+WARNING (2025-01-20 11:51:23,546): log_response | Bad Request: /friends/
+WARNING (2025-01-20 11:51:31,171): log_response | Bad Request: /friends/
+WARNING (2025-01-20 11:51:46,265): log_response | Bad Request: /friends/
+WARNING (2025-01-20 11:51:49,367): log_response | Bad Request: /friends/
+INFO (2025-01-20 11:52:13,006): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 11:52:13,247): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 11:54:42,821): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:01:46,214): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:01:46,521): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:02:43,885): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:02:44,139): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:04:16,682): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:04:16,975): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:07:37,128): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:07:37,395): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:07:38,443): log_response | Not Found: /friends/
+INFO (2025-01-20 12:09:31,074): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:09:31,324): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:10:26,726): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:10:26,979): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:10:28,366): log_response | Not Found: /friends/
+INFO (2025-01-20 12:11:06,315): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:11:06,566): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:13:12,344): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:13:12,593): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:13:13,721): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:13:13,982): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:13:46,304): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:13:46,561): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:14:27,926): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:14:28,180): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:14:40,407): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:14:40,676): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:15:43,213): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:15:43,471): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:15:59,480): log_response | Not Found: /friends/
+INFO (2025-01-20 12:17:03,034): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:17:03,283): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:17:27,539): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:17:27,788): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:17:44,002): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:17:44,252): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:18:23,549): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:18:23,808): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:18:32,010): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:18:32,281): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:19:00,555): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:19:00,817): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:19:19,032): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:19:19,279): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 12:19:20,351): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 62, in get_friends
+    return JsonResponse({'friends':serialized.data}, context={'user': req.user}, status=200)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/http/response.py", line 734, in __init__
+    super().__init__(content=data, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/http/response.py", line 374, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: HttpResponseBase.__init__() got an unexpected keyword argument 'context'
+INFO (2025-01-20 12:20:52,907): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:20:53,177): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:21:08,398): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:21:08,662): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:21:19,847): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:21:20,104): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:21:35,345): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:21:35,633): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:21:50,842): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:21:51,103): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:22:56,511): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:22:56,770): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:23:05,965): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:23:06,274): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:23:08,425): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:23:08,691): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:23:15,841): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:23:16,126): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:24:11,620): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:24:11,862): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:24:44,159): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:24:44,417): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:25:51,978): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:25:52,215): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:26:07,397): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/serializer.py changed, reloading.
+INFO (2025-01-20 12:26:07,657): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:27:01,104): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:27:01,360): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:45:21,522): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:45:21,768): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:45:33,963): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:45:34,224): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:46:21,876): log_response | Not Found: /friends/
+INFO (2025-01-20 12:46:32,625): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:46:32,887): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:47:45,423): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:47:45,733): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:47:46,515): log_response | Not Found: /friends/
+WARNING (2025-01-20 12:47:47,586): log_response | Not Found: /friends/
+INFO (2025-01-20 12:47:51,898): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:47:52,162): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:47:53,880): log_response | Not Found: /friends/
+WARNING (2025-01-20 12:47:54,537): log_response | Not Found: /friends/
+INFO (2025-01-20 12:48:00,358): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:48:00,623): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:48:01,619): log_response | Not Found: /friends/
+WARNING (2025-01-20 12:48:02,292): log_response | Not Found: /friends/
+INFO (2025-01-20 12:48:06,774): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:48:07,026): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:48:17,201): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:48:17,464): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:48:18,433): log_response | Not Found: /friends/
+INFO (2025-01-20 12:51:14,453): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:51:14,719): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:52:59,395): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:52:59,698): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:53:00,066): log_response | Not Found: /friends/
+WARNING (2025-01-20 12:53:00,808): log_response | Not Found: /friends/
+WARNING (2025-01-20 12:53:14,037): log_response | Not Found: /friends/
+WARNING (2025-01-20 12:53:39,211): log_response | Not Found: /friends/
+INFO (2025-01-20 12:54:07,156): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:54:07,393): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:54:29,628): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:54:29,929): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:54:33,078): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:54:33,343): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:56:07,930): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:56:08,174): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:56:23,385): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:56:23,633): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:56:24,572): log_response | Not Found: /friends/
+WARNING (2025-01-20 12:56:25,604): log_response | Not Found: /friends/
+INFO (2025-01-20 12:56:58,926): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:56:59,173): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:57:08,361): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:57:08,602): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 12:57:39,894): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:57:40,138): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:57:41,029): log_response | Not Found: /friends/
+INFO (2025-01-20 12:57:48,312): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:57:48,568): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:57:49,418): log_response | Not Found: /friends/
+INFO (2025-01-20 12:58:16,854): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:58:17,125): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:58:17,984): log_response | Not Found: /friends/
+INFO (2025-01-20 12:58:26,302): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:58:26,549): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:58:27,550): log_response | Not Found: /friends/
+INFO (2025-01-20 12:58:34,714): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:58:34,954): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:58:35,740): log_response | Not Found: /friends/
+WARNING (2025-01-20 12:58:36,698): log_response | Not Found: /friends/
+INFO (2025-01-20 12:58:45,132): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 12:58:45,410): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 12:58:46,300): log_response | Not Found: /friends/
+INFO (2025-01-20 13:00:56,241): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 13:00:56,526): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 13:00:57,620): log_response | Not Found: /friends/
+INFO (2025-01-20 13:01:23,805): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 13:01:24,069): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 13:01:54,356): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 13:01:54,602): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 13:02:18,839): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 13:02:19,091): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 13:02:20,368): log_response | Not Found: /friends/
+WARNING (2025-01-20 13:02:21,378): log_response | Not Found: /friends/
+WARNING (2025-01-20 13:02:22,852): log_response | Not Found: /friends/
+INFO (2025-01-20 13:02:43,364): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 13:02:43,635): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 13:04:58,297): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 13:04:58,577): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 13:58:36,080): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 13:58:43,811): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 13:59:10,098): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 13:59:10,364): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 13:59:12,494): log_response | Not Found: /friends/
+INFO (2025-01-20 13:59:21,574): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 13:59:21,838): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 13:59:22,808): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 65, in get_friends
+    for i in fr.values_list('received_id', 'sender_id'):
+             ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'values_list'
+INFO (2025-01-20 13:59:45,063): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 13:59:45,321): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 13:59:49,466): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 13:59:49,731): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 13:59:54,880): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 13:59:55,146): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:00:47,539): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:00:47,870): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:00:49,782): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 65, in get_friends
+    for i in fr.values_list('received_id', 'sender_id'):
+             ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'values_list'
+INFO (2025-01-20 14:01:43,298): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:01:43,558): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:02:05,815): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:02:06,068): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:02:07,513): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 61, in get_friends
+    fr = ft_filter(fr, req.user.id, STATUS[status])
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 31, in ft_filter
+    fs_status += [i]
+    ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'fs_status' where it is not associated with a value
+INFO (2025-01-20 14:02:24,312): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:02:24,581): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:02:26,482): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 61, in get_friends
+    fr = ft_filter(fr, req.user.id, STATUS[status])
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 21, in ft_filter
+    fs_status
+UnboundLocalError: cannot access local variable 'fs_status' where it is not associated with a value
+INFO (2025-01-20 14:02:31,771): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:02:32,049): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:02:32,968): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 61, in get_friends
+    fr = ft_filter(fr, req.user.id, STATUS[status])
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 31, in ft_filter
+    fs_status += [i]
+TypeError: unsupported operand type(s) for +=: 'NoneType' and 'list'
+INFO (2025-01-20 14:02:49,258): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:02:49,521): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:02:50,477): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 61, in get_friends
+    fr = ft_filter(fr, req.user.id, STATUS[status])
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 31, in ft_filter
+    fs_status += [i]
+TypeError: unsupported operand type(s) for +=: 'QuerySet' and 'list'
+INFO (2025-01-20 14:03:00,702): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:03:00,974): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:03:03,105): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:03:03,383): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:03:03,643): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 61, in get_friends
+    fr = ft_filter(fr, req.user.id, STATUS[status])
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 31, in ft_filter
+    fs_status += [i]
+TypeError: unsupported operand type(s) for +=: 'QuerySet' and 'list'
+ERROR (2025-01-20 14:03:04,654): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 61, in get_friends
+    fr = ft_filter(fr, req.user.id, STATUS[status])
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 31, in ft_filter
+    fs_status += [i]
+TypeError: unsupported operand type(s) for +=: 'QuerySet' and 'list'
+ERROR (2025-01-20 14:03:05,321): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 61, in get_friends
+    fr = ft_filter(fr, req.user.id, STATUS[status])
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 31, in ft_filter
+    fs_status += [i]
+TypeError: unsupported operand type(s) for +=: 'QuerySet' and 'list'
+ERROR (2025-01-20 14:03:05,794): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 61, in get_friends
+    fr = ft_filter(fr, req.user.id, STATUS[status])
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 31, in ft_filter
+    fs_status += [i]
+TypeError: unsupported operand type(s) for +=: 'QuerySet' and 'list'
+INFO (2025-01-20 14:03:09,555): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:03:09,823): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:03:10,818): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 61, in get_friends
+    fr = ft_filter(fr, req.user.id, STATUS[status])
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 31, in ft_filter
+    fs_status += i
+TypeError: unsupported operand type(s) for +=: 'QuerySet' and 'Friendship'
+INFO (2025-01-20 14:03:19,997): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:03:20,259): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:03:28,432): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:03:28,718): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:03:32,863): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:03:33,124): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:03:34,141): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 65, in get_friends
+    for i in fr.values_list('received_id', 'sender_id'):
+             ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'values_list'
+ERROR (2025-01-20 14:03:35,198): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 65, in get_friends
+    for i in fr.values_list('received_id', 'sender_id'):
+             ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'values_list'
+INFO (2025-01-20 14:04:58,716): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:04:58,955): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:04:59,916): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 60, in get_friends
+    fr = ft_filter(fr, req.user.id, STATUS[status])
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 30, in ft_filter
+    fs.remove(i)
+    ^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'remove'
+INFO (2025-01-20 14:05:21,210): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:05:21,458): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:05:59,833): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:06:00,102): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:06:59,388): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 60, in get_friends
+    fr = ft_filter(fr, req.user.id, STATUS[status])
+                                    ~~~~~~^^^^^^^^
+KeyError: 'block'
+ERROR (2025-01-20 14:07:04,218): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 60, in get_friends
+    fr = ft_filter(fr, req.user.id, STATUS[status])
+                                    ~~~~~~^^^^^^^^
+KeyError: 'blocksdsd'
+ERROR (2025-01-20 14:07:04,967): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 60, in get_friends
+    fr = ft_filter(fr, req.user.id, STATUS[status])
+                                    ~~~~~~^^^^^^^^
+KeyError: 'blocksdsd'
+INFO (2025-01-20 14:07:16,804): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:07:17,048): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:07:20,192): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:07:20,453): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:07:21,203): log_response | Internal Server Error: /friends/
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py", line 59, in get_friends
+    fr = ft_filter(fr, req.user.id, STATUS[status])
+                                    ~~~~~~^^^^^^^^
+KeyError: 'blocksdsd'
+INFO (2025-01-20 14:07:33,661): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:07:33,906): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 14:07:35,224): log_response | Bad Request: /friends/
+WARNING (2025-01-20 14:07:40,992): log_response | Bad Request: /friends/
+WARNING (2025-01-20 14:08:10,532): log_response | Bad Request: /friends/
+WARNING (2025-01-20 14:13:36,213): log_response | Bad Request: /friends/
+WARNING (2025-01-20 14:13:40,418): log_response | Bad Request: /friends/
+INFO (2025-01-20 14:17:21,670): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/__init__.py changed, reloading.
+INFO (2025-01-20 14:17:22,067): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:17:30,267): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/urls.py changed, reloading.
+INFO (2025-01-20 14:17:30,586): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:17:37,758): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:17:38,069): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:17:41,933): log_response | Not Implemented: /friends/search
+INFO (2025-01-20 14:17:56,319): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:17:56,669): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:18:00,731): log_response | Not Implemented: /friends/search
+INFO (2025-01-20 14:18:12,962): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:18:13,290): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 14:18:14,519): log_response | Bad Request: /friends/search
+INFO (2025-01-20 14:18:33,567): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:18:33,890): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:18:49,149): log_response | Not Implemented: /friends/search
+INFO (2025-01-20 14:18:58,184): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:18:58,499): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:18:58,791): log_response | Not Implemented: /friends/search
+ERROR (2025-01-20 14:18:59,673): log_response | Not Implemented: /friends/search
+ERROR (2025-01-20 14:19:10,739): log_response | Not Implemented: /friends/search
+INFO (2025-01-20 14:19:47,863): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:19:48,134): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:20:06,343): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:20:06,628): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:20:18,769): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:20:19,060): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:20:20,201): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:20:20,476): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 14:20:23,780): log_response | Bad Request: /friends/search
+WARNING (2025-01-20 14:20:29,093): log_response | Bad Request: /friends/search
+ERROR (2025-01-20 14:20:30,759): log_response | Not Implemented: /friends/search
+ERROR (2025-01-20 14:20:36,154): log_response | Not Implemented: /friends/search
+ERROR (2025-01-20 14:20:37,636): log_response | Not Implemented: /friends/search
+ERROR (2025-01-20 14:20:41,812): log_response | Not Implemented: /friends/search
+INFO (2025-01-20 14:21:04,846): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:21:05,128): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:24:25,364): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:24:25,632): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:29:47,482): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:29:47,737): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:30:21,022): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:30:21,274): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:30:31,440): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:30:31,675): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:30:36,841): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:30:37,086): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:30:39,206): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:30:39,438): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:30:45,589): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:30:45,866): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:30:48,164): log_response | Internal Server Error: /friends/search
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py", line 26, in search
+    result = Player.objects.filter(username_icontains=q)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/db/models/sql/query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/db/models/sql/query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/db/models/sql/query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/db/models/sql/query.py", line 1768, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'username_icontains' into field. Choices are: avatar_url, created_at, email, first_name, id, last_name, status, two_FA, username
+INFO (2025-01-20 14:31:42,355): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:31:42,609): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:31:44,155): log_response | Internal Server Error: /friends/search
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/rest_framework/fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/rest_framework/fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py", line 28, in search
+    return JsonResponse({'result': UserSerializer(result).data}, status=200)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 571, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/rest_framework/fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `username` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'username'.
+INFO (2025-01-20 14:31:59,858): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:32:00,109): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:32:01,771): log_response | Internal Server Error: /friends/search
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/rest_framework/fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/rest_framework/fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py", line 28, in search
+    return JsonResponse({'result': UserSerializer(result).data}, status=200)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 571, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/rest_framework/fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `username` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'username'.
+INFO (2025-01-20 14:32:29,440): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:32:29,692): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 14:32:30,552): log_response | Internal Server Error: /friends/search
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py", line 28, in search
+    return JsonResponse({'result': UserSerializer(result)}, status=200)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/http/response.py", line 733, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.13/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/usr/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+           ~~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type UserSerializer is not JSON serializable
+INFO (2025-01-20 14:32:58,992): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:32:59,272): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:34:32,964): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:34:33,220): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:35:26,644): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:35:26,886): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:35:30,018): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:35:30,259): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:35:51,524): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:35:51,768): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:36:07,977): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:36:08,240): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 14:36:23,595): log_response | Bad Request: /friends/search
+INFO (2025-01-20 14:36:38,504): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:36:38,747): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:41:41,711): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 14:41:45,726): log_response | Bad Request: /friends/search
+WARNING (2025-01-20 14:41:59,417): log_response | Bad Request: /friends/search
+WARNING (2025-01-20 14:42:07,044): log_response | Bad Request: /friends/search
+INFO (2025-01-20 14:48:50,151): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:48:50,478): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:50:53,313): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:50:53,568): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:50:58,719): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:50:58,973): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:53:01,753): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:53:02,011): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:56:25,170): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:56:25,445): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:56:58,754): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:56:59,031): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:58:27,686): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:58:27,977): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:58:54,248): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/get_all.py changed, reloading.
+INFO (2025-01-20 14:58:54,565): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 14:59:04,767): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 14:59:05,069): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:00:43,774): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:00:44,036): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 15:00:46,274): log_response | Bad Request: /friends/search
+WARNING (2025-01-20 15:00:48,432): log_response | Bad Request: /friends/search
+INFO (2025-01-20 15:01:25,405): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:01:25,696): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 15:01:26,243): log_response | Bad Request: /friends/search
+INFO (2025-01-20 15:01:56,985): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:01:57,247): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 15:01:58,431): log_response | Bad Request: /friends/search
+WARNING (2025-01-20 15:01:59,652): log_response | Bad Request: /friends/search
+INFO (2025-01-20 15:02:06,439): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:02:06,708): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 15:02:07,792): log_response | Internal Server Error: /friends/search
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py", line 20, in search
+    print(limit, offset)
+          ^^^^^
+UnboundLocalError: cannot access local variable 'limit' where it is not associated with a value
+INFO (2025-01-20 15:02:11,855): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:02:12,175): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:02:15,340): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:02:15,610): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 15:02:16,854): log_response | Bad Request: /friends/search
+WARNING (2025-01-20 15:02:17,686): log_response | Bad Request: /friends/search
+INFO (2025-01-20 15:02:22,815): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:02:23,076): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:03:25,536): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:03:25,847): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:03:26,992): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:03:27,268): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 15:03:28,240): log_response | Bad Request: /friends/search
+INFO (2025-01-20 15:03:30,417): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:03:30,692): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 15:03:31,492): log_response | Bad Request: /friends/search
+INFO (2025-01-20 15:03:41,873): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:03:42,135): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 15:03:43,011): log_response | Bad Request: /friends/search
+WARNING (2025-01-20 15:03:43,631): log_response | Bad Request: /friends/search
+INFO (2025-01-20 15:03:56,320): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:03:56,584): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:04:11,769): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:04:12,044): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:04:22,253): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:04:22,523): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:04:23,661): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:04:23,939): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 15:15:03,045): log_response | Not Found: /account/login/42/
+INFO (2025-01-20 15:47:05,412): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:47:05,914): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:49:14,871): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:49:15,122): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:49:59,514): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:49:59,753): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:51:02,286): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:51:02,555): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:51:56,970): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:51:57,233): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:52:52,701): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:52:52,950): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:53:12,198): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:53:12,468): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:53:56,848): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:53:57,087): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:54:16,354): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:54:16,599): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:54:21,752): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:54:22,000): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:54:26,094): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:54:26,331): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 15:54:27,406): log_response | Internal Server Error: /friends/search
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py", line 30, in search
+    print(q.split()[1:-1].join())
+          ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'join'
+INFO (2025-01-20 15:54:46,559): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:54:46,799): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:54:54,962): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:54:55,207): run_with_reloader | Watching for file changes with StatReloader
+ERROR (2025-01-20 15:54:58,839): log_response | Internal Server Error: /friends/search
+Traceback (most recent call last):
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/yoss/ft_trans_mv/venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py", line 30, in search
+    print("".join(q.split()[1:-1], ' '))
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.join() takes exactly one argument (2 given)
+INFO (2025-01-20 15:55:27,532): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:55:27,841): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:55:38,046): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:55:38,300): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:55:51,497): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:55:51,738): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:57:38,448): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:57:38,699): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 15:58:36,161): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 15:58:36,460): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 16:00:07,176): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 16:00:07,407): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 16:04:43,399): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 16:04:43,654): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 16:05:08,936): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 16:05:09,185): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 16:05:18,354): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 16:05:18,606): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 16:05:47,900): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 16:05:48,164): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 16:06:57,850): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 16:06:58,098): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 16:12:56,226): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 16:12:56,472): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 16:13:00,614): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 16:13:00,872): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 16:13:06,044): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 16:13:06,322): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 16:13:11,476): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 16:13:11,735): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 16:14:38,400): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 16:14:38,648): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 16:14:48,845): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 16:14:49,091): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 16:15:32,472): trigger_reload | /home/yoss/ft_trans_mv/friendship/friendship/viwes/search.py changed, reloading.
+INFO (2025-01-20 16:15:32,715): run_with_reloader | Watching for file changes with StatReloader
+WARNING (2025-01-20 16:17:09,680): log_response | Not Found: /account/login/42
+WARNING (2025-01-20 16:17:09,999): log_response | Not Found: /favicon.ico
+INFO (2025-01-20 16:22:48,869): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-01-20 16:25:11,718): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-02-01 10:32:39,864): run_with_reloader | Watching for file changes with StatReloader
+INFO (2025-02-01 10:33:08,505): run_with_reloader | Watching for file changes with StatReloader

@@ -13,7 +13,7 @@ re: down up
 ps:
 	@docker-compose ps -a
 logs:
-	docker-compose logs profile
+	docker-compose logs $c
 
 
 shell:
@@ -22,3 +22,4 @@ shell:
 
 clean:
 	@docker-compose down --rmi all
+	#  docker container rm -f $(docker container ls -qa)

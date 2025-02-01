@@ -1,0 +1,56 @@
+TODO:
+    add notification wen have new request
+
+TOLEARN:
+
+
+
+
+
+ROUTES (friendship service):
+    all GET request you can use parameter 'limit' and 'offset' for paginition (friends/?limit=10&offset=20)
+    
+    # Friend List Management
+        friends/                                (GET)       : get all friends
+        friends/search?q=keyword&status=status  (GET)       : get all users match the keyword and match the status (online/offline/in-game/blocked/pending)
+        friends/{user_id}                       (GET)       : get all informations of this user and status (frined/blocked/pending/None)
+        friends/{user_id}/friend                (DELETE)    : unfriend
+
+    # Friend Actions
+        friends/{user_id}/block                 (POST)      : block user
+        friends/{user_id}/block                 (DELETE)    : unblock user
+        friends/{user_id}/request               (POST)      : send request  
+        friends/{user_id}/request               (DELETE)    : cancel request
+        friends/{user_id}/request/accept        (POST)      : accept request
+        friends/{user_id}/request/reject        (POST)      : reject request
+    
+    # Notifications Managment
+        friends/notification                    (GET)       : get list if any user send request to you
+        friends/notification/{id}               (POST)      : mark it as read
+
+
+
+
+
+
+
+
+
+friends/notification                    (GET)       : get list if any user send request to you
+friends/notification/{id}               (POST)      : mark it as read
+
+
+
+
+
+friends/search?q=keyword                (GET)       : get all users match the keyword
+friends/?status=status                  (GET)       : get all friends match the status (blocked/pending/friends/all/online/offline/in-game)
+friends/{user_id}                       (GET)       : get all informations of this user and status (frined/blocked/pending/None)
+friends/                                (GET)       : get all friends
+friends/{user_id}/request               (DELETE)    : cancel request
+friends/{user_id}/request/reject        (POST)      : reject request
+friends/{user_id}/request/accept        (POST)      : accept request
+friends/{user_id}/friend                (DELETE)    : unfriend
+friends/{user_id}/request               (POST)      : send request  
+friends/{user_id}/block                 (DELETE)    : unblock user
+friends/{user_id}/block                 (POST)      : block user

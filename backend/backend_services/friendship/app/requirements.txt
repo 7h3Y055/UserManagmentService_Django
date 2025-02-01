@@ -1,0 +1,6 @@
+django
+psycopg2
+djangorestframework
+gunicorn
+dotmap
+requests
