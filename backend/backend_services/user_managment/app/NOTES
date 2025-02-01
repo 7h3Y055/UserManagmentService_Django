@@ -13,10 +13,13 @@ ROUTES:
     /account/logout/            (POST)    : for logging out the current user.
     /account/whoami/            (GET)     : for retrieving information about the currently authenticated user.
     /account/delete/user/       (POST)    : for deleting the current user's account.
-        
+    /account/avatar/            (POST)    : upload new avatar (.jpg, .png, .gif, .webp,)
+    /account/avatar/            (DELETE)  : remove avatar (set to default)
+    /account/search/?q=keyword   (GET)    : get all users match the keyword (can search with username or first name and lastname)
+    /account/{user_id}           (GET)    : get informations of this user id
 
 body:
-    /account/login/refresh/
+    /account/login/refresh
         Request:
             {
                 "refresh": "<refresh_token>"
@@ -26,7 +29,7 @@ body:
                 "access": "<access_token>",
                 "refresh": "<refresh_token>"
             }
-    /account/logout/
+    /account/logout
         Request:
             {
                 "refresh": "<refresh_token>"
@@ -36,3 +39,4 @@ body:
                 "message": "Successfully logged out."
             }
         
+

@@ -14,19 +14,19 @@ services:
       - public_key:/app/public_key
       - logs:/app/logs
       - profile_images:/app/profile_images
-  profile:
-    build:
-      context: ./backend/backend_services/profile
-      dockerfile: Dockerfile
-    container_name: profile
-    env_file:
-      - ./backend/backend_services/profile/.env
-    ports:
-      - "8001:8001"
-    volumes:
-      - public_key:/app/public_key
-      - logs:/app/logs
-      - profile_images:/app/profile_images
+  # profile:
+  #   build:
+  #     context: ./backend/backend_services/profile
+  #     dockerfile: Dockerfile
+  #   container_name: profile
+  #   env_file:
+  #     - ./backend/backend_services/profile/.env
+  #   ports:
+  #     - "8001:8001"
+  #   volumes:
+  #     - public_key:/app/public_key
+  #     - logs:/app/logs
+  #     - profile_images:/app/profile_images
 
 
 
