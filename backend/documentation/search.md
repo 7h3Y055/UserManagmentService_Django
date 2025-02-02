@@ -1,3 +1,4 @@
+* **[MAIN](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/main.md)**
 
 ### `/account/search/`
 Endpoint to get all users matching the keyword (can search by username, first name, or last name).

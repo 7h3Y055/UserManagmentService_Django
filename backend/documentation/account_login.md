@@ -1,4 +1,7 @@
 
+* **[MAIN](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/main.md)**
+
+
 ### `/account/login/{PROVIDER}/`
 Endpoint for logging in with 42/Google authentication.
 

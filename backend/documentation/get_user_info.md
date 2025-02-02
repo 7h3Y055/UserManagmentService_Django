@@ -1,3 +1,4 @@
+* **[MAIN](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/main.md)**
 
 ### `/account/{user_id}`
 Endpoint to get information of a user by their ID.

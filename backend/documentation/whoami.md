@@ -1,3 +1,4 @@
+* **[MAIN](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/main.md)**
 
 ### `/account/whoami/`
 Endpoint for retrieving information about the currently authenticated user.

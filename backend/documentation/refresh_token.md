@@ -1,3 +1,4 @@
+* **[MAIN](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/main.md)**
 
 ### `/account/login/refresh/`
 Endpoint for refreshing the access token using 42/Google authentication.

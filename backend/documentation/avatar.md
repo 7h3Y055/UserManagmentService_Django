@@ -1,3 +1,4 @@
+* **[MAIN](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/main.md)**
 
 ### `/account/avatar/`
 Endpoint for uploading and removing avatars (set to default).

@@ -17,8 +17,9 @@ ROUTES:
     /account/delete/user/       (DELETE)    : for deleting the current user's account.
     /account/avatar/            (POST)    : upload new avatar (.jpg, .png, .gif, .webp,)
     /account/avatar/            (DELETE)  : remove avatar (set to default)
-    /account/search/?q=keyword   (GET)    : get all users match the keyword (can search with username or first name and lastname)
-    /account/{user_id}           (GET)    : get informations of this user id
+    /account/search/?q=keyword  (GET)    : get all users match the keyword (can search with username or first name and lastname)
+    /account/{user_id}          (GET)    : get informations of this user id
+    /account/update-profile/    (PATCH)    : update informations 
 
 body:
     /account/login/refresh
