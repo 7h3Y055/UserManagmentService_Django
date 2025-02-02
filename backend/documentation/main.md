@@ -13,11 +13,11 @@
 
 ## User Management:
 
-* **[Login](url)**
-* **[Logout](url)**
-* **[Refresh Token](url)**
-* **[Get My Info](url)**
-* **[Delete My Account](url)**
-* **[Avatar](url)**
-* **[Search](url)**
-* **[Get User Info by ID](url)**
+* **[Login](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/account_login.md)**
+* **[Logout](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/account_logout.md)**
+* **[Refresh Token](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/refresh_token.md)**
+* **[Get My Info](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/whoami.md)**
+* **[Delete My Account](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/delete_user.md)**
+* **[Avatar](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/avatar.md)**
+* **[Search](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/search.md)**
+* **[Get User Info by ID](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/get_user_info.md)**
