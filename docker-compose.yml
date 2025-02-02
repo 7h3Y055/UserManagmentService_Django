@@ -14,17 +14,17 @@ services:
       - public_key:/app/public_key
       - logs:/app/logs
       - profile_images:/app/profile_images
-  friendship:
-    build:
-      context: ./backend/backend_services/friendship
-      dockerfile: Dockerfile
-    container_name: friendship
-    env_file:
-      - ./backend/backend_services/friendship/.env
-    ports:
-      - "8001:8001"
-    volumes:
-      - logs:/app/logs
+  # friendship:
+  #   build:
+  #     context: ./backend/backend_services/friendship
+  #     dockerfile: Dockerfile
+  #   container_name: friendship
+  #   env_file:
+  #     - ./backend/backend_services/friendship/.env
+  #   ports:
+  #     - "8001:8001"
+  #   volumes:
+  #     - logs:/app/logs
 
 
 
@@ -43,18 +43,18 @@ services:
       - ./databases/user_managment_database/.env
     ports:
       - "5432:5432"
-    volumes:
-      - db_data:/var/lib/postgresql/data
+    # volumes:
+    #   - db_data:/var/lib/postgresql/data
 
-  friendship_database:
-    image: postgres:latest
-    container_name: friendship_database
-    env_file:
-      - ./databases/friendship_database/.env
-    ports:
-      - "5432:5432"
-    volumes:
-      - db_data:/var/lib/postgresql/data
+  # friendship_database:
+  #   image: postgres:latest
+  #   container_name: friendship_database
+  #   env_file:
+  #     - ./databases/friendship_database/.env
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - db_data:/var/lib/postgresql/data
 
 
 volumes:

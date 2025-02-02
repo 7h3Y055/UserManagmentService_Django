@@ -1,10 +1,12 @@
-from django.http import JsonResponse, HttpResponse
 from ..models import Player
 from django.contrib.auth import login
 from .serializer import UserSerializer
 import requests, os, logging
 from rest_framework_simplejwt.tokens import RefreshToken
 from datetime import timedelta
+from restframework.response import Response
+from restframework.decorators import api_view, permission_classes
+from restframework.permissions import AllowAny
 
 
 def get_oauth2_urls(provider):
@@ -66,49 +68,58 @@ def create_user(user_info, provider):
         )
     return user
 
-
+@api_view(['GET'])
+@permission_classes([AllowAny])
 def callback(req):
     if req.COOKIES.get('state') != req.GET.get('state'):
-        logging.error('Invalid state')
-        return JsonResponse({'error': 'Invalid state'}, status=400)
+        logging.error('Invalid state, The state parameter does not match')
+        return Response({'error': 'Invalid state',
+                         'error_description': 'The state parameter does not match'}, status=400)
     
     code = req.GET.get('code')
     if not code:
         logging.error('No code provided')
-        return JsonResponse({'error': 'No code provided'}, status=400)
+        return Response({'error': 'No code provided',
+                         'error_description': 'Authorization code is missing from the request'}, status=400)
     
     try:
         oauth2_urls = get_oauth2_urls(req.COOKIES.get('oauth2_provider'))
-    except ValueError as e:
-        logging.error(str(e))
-        return JsonResponse({'error': str(e)}, status=400)
+    except ValueError:
+        logging.error('Invalid OAuth2 provider')
+        return Response({'error': 'Invalid OAuth2 provider',
+                         'error_description': 'The OAuth2 provider is not set in the cookie or it has been edited'}, status=400)
+    
     
     if req.GET.get('error'):
         logging.error(f"Error: {req.GET.get('error')}, Description: {req.GET.get('error_description')}")
-        return JsonResponse({'error': req.GET.get('error'), 'error_description': req.GET.get('error_description')}, status=500)
+        return Response({'error': req.GET.get('error'),
+                         'error_description': req.GET.get('error_description')}, status=400)
 
     body = {
         "grant_type": "authorization_code",
         "client_id": oauth2_urls['client_id'],
         "client_secret": oauth2_urls['client_secret'],
         'code': code,
-        "redirect_uri": str(os.environ.get('DOMAIN')) + '/account/login/callback/',
+        "redirect_uri": str(os.environ.get('SOCIAL_AUTH_REDIRECT_URI'))',
     }
 
     response = requests.post(url=oauth2_urls['token_url'], data=body)
 
     if response.status_code != 200:
         logging.error(f"Failed to obtain token: {response.json().get('error')}, Description: {response.json().get('error_description')}")
-        return JsonResponse({'error': response.json().get('error'), 'error_description': response.json().get('error_description')}, status=response.status_code)
+        return Response({'error': response.json().get('error'), 'error_description': response.json().get('error_description')}, status=response.status_code)
     
     access_token = response.json().get('access_token')
     if not access_token:
         logging.error('No access token provided')
-        return JsonResponse({'error': 'No access token provided'}, status=400)
+        return Response({'error': 'No access token provided',
+        'error_description': 'The access token is missing from the token response'}, status=400)
+        
     response = requests.get(url=oauth2_urls['userinfo_url'], headers={'Authorization': f'Bearer {access_token}'})
     if response.status_code != 200:
         logging.error('Failed to obtain user info')
-        return JsonResponse({'error': 'Failed to obtain user info'}, status=response.status_code)
+        return Response({'error': 'Failed to obtain user info',
+        'error_description': response.json().get('error_description')}, status=response.status_code)
     
     user_info = response.json()
     
@@ -125,7 +136,7 @@ def callback(req):
     refresh_token = str(refresh)
     
     logging.info(f'login in User {user_info["email"]}')
-    res = JsonResponse({
+    res = Response({
         'access_token': access_token,
         'refresh_token': refresh_token
     }, status=201)

@@ -19,12 +19,6 @@ def remove_old_avatar(username):
 @api_view(['POST', 'DELETE'])
 @permission_classes([IsAuthenticated])
 def avatar(req):
-    if not req.user.is_authenticated:
-        logging.error('User not authenticated')
-        return JsonResponse({'error': 'User not authenticated'}, status=401)
-    
-
-    
     if req.method == 'POST':
         logging.info(f'Uploading new avatar {req.user.username}')
         extensions = {
@@ -48,11 +42,8 @@ def avatar(req):
         res.headers['Location'] = req.user.avatar_url
         return res
     
-
-
     if req.method == 'DELETE':
         logging.info('Removing avatar')
-        print(os.environ.get('PROFILE_IMAGE_PATH') + req.user.avatar_url.split('/')[-1])
         if req.user.avatar_url == os.environ.get('PROFILE_IMAGE_PATH') + os.environ.get('DEFAULT_IMAGE'):
             logging.error('User does not have an avatar')
             return JsonResponse({'error': 'User does not have an avatar'}, status=400)

@@ -10,6 +10,6 @@ def info(req, user_id):
     try:
         user = Player.objects.get(id=user_id)
         return Response(UserSerializer(user, context={'user': req.user}).data, status=200)
-    except:
-        return Response({'error': 'user not found'}, status=400)
+    except Player.DoesNotExist:
+        return Response({'error': 'user not found'}, status=404)
 
