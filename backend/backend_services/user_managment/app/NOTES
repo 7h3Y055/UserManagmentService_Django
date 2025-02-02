@@ -1,5 +1,6 @@
 TO-DO:
     verify avatar size in upload
+    add update profile in user managment service
     add bio
     disable Debug mode
 
