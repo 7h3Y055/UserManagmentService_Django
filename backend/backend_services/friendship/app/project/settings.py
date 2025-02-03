@@ -53,8 +53,36 @@ LOGGING = {
     },
 }
 
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'friendship.custom_jwt_authentication.CustomJWTAuthentication',
+    ),
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+}
 
 
+
+
+## Load RSA keys
+with open(os.environ.get('PRIVATE_KEY_PATH'), 'r') as f:
+    PRIVATE_KEY = f.read()
+
+with open(os.environ.get('PUBLIC_KEY_PATH'), 'r') as f:
+    PUBLIC_KEY = f.read()
+
+from datetime import timedelta
+# JWT Configuration
+SIMPLE_JWT = {
+    'ALGORITHM': 'RS256', 
+    'SIGNING_KEY': PRIVATE_KEY,
+    'VERIFYING_KEY': PUBLIC_KEY,
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=99999), # 15min  
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=3),    
+    'ROTATE_REFRESH_TOKENS': True,                  
+    'BLACKLIST_AFTER_ROTATION': True,               
+}
 
 # Application definition
 

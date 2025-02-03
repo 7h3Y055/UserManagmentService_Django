@@ -24,7 +24,6 @@ Endpoint to get all users matching the keyword (can search by username, first na
             "last_name": "Bouchmama",
             "bio": "blabla",
             "avatar_url": "http://localhost:8000/profile_images/default.jpeg",
-            "two_FA": false,
             "status": "ON",
             "created_at": "2025-02-02T14:40:12.882146Z"
         },
@@ -35,7 +34,6 @@ Endpoint to get all users matching the keyword (can search by username, first na
             "last_name": "Yosef",
             "bio": "blabla",
             "avatar_url": "http://localhost:8000/profile_images/7h3_Yosef.png",
-            "two_FA": false,
             "status": "ON",
             "created_at": "2025-02-02T14:56:27.811185Z"
         }

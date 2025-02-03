@@ -1,18 +1,15 @@
 
 from rest_framework.decorators import api_view, permission_classes
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.response import Response
 from ..models import Friendship
 from django.db.models import Q
-from .user import *
+from .user import get_user
+
 
 @api_view(['POST', 'DELETE'])
-# @permission_classes([IsAuthenticated])
+@permission_classes([IsAuthenticated])
 def send_friend_request(req, user_id):
-    req.user = get_user(req)
-    if not req.user:
-        return Response({'error': 'Unauthorized'}, status=401)
-    
     if req.method == 'POST': # POST
         user = get_user(req, user_id)
         if not user:
@@ -39,30 +36,24 @@ def send_friend_request(req, user_id):
             return Response({'error':'this request dosen\'t exist'}, status=400)
     return Response(status=405)
 
-# @csrf_exempt # just for testing
-# def accept_request(req, user_id):
-#     if not req.user.is_authenticated:
-#         return Response({'error': 'Unauthorized'}, status=401)
-#     if req.method != 'POST': # POST
-#         return Response(status=405)
-#     try:
-#         fs = Friendship.objects.get(sender_id=user_id, received_id=req.user.id, status='PN')
-#         fs.status = 'FR' # ('FR','friends'),
-#         fs.save()
-#         return Response({'success':'accepted'}, status=200)
-#     except Friendship.DoesNotExist:
-#         return Response({'error':'this request dosen\'t exist'}, status=400)
+@api_view(['POST'])
+@permission_classes([IsAuthenticated])
+def accept_request(req, user_id):
+    try:
+        fs = Friendship.objects.get(sender_id=user_id, received_id=req.user.id, status='PN')
+        fs.status = 'FR' # ('FR','friends'),
+        fs.save()
+        return Response({'success':'accepted'}, status=200)
+    except Friendship.DoesNotExist:
+        return Response({'error':'this request dosen\'t exist'}, status=400)
 
 
-# @csrf_exempt # just for testing
-# def reject_request(req, user_id):
-#     if not req.user.is_authenticated:
-#         return Response({'error': 'Unauthorized'}, status=401)
-#     if req.method != 'POST': # POST
-#         return Response(status=405)
-#     try:
-#         fs = Friendship.objects.get(received_id=req.user.id, sender_id=user_id, status='PN')
-#         fs.delete()
-#         return Response({'success':'rejected'}, status=200)
-#     except:
-#         return Response({'error':'this request dosen\'t exist'}, status=400)
+@api_view(['POST'])
+@permission_classes([IsAuthenticated])
+def reject_request(req, user_id):
+    try:
+        fs = Friendship.objects.get(received_id=req.user.id, sender_id=user_id, status='PN')
+        fs.delete()
+        return Response({'success':'rejected'}, status=200)
+    except:
+        return Response({'error':'this request dosen\'t exist'}, status=400)

@@ -14,17 +14,17 @@ services:
       - public_key:/app/public_key
       - logs:/app/logs
       - profile_images:/app/profile_images
-  # friendship:
-  #   build:
-  #     context: ./backend/backend_services/friendship
-  #     dockerfile: Dockerfile
-  #   container_name: friendship
-  #   env_file:
-  #     - ./backend/backend_services/friendship/.env
-  #   ports:
-  #     - "8001:8001"
-  #   volumes:
-  #     - logs:/app/logs
+  friendship:
+    build:
+      context: ./backend/backend_services/friendship
+      dockerfile: Dockerfile
+    container_name: friendship
+    env_file:
+      - ./backend/backend_services/friendship/.env
+    ports:
+      - "8001:8001"
+    volumes:
+      - logs:/app/logs
 
 
 
@@ -46,16 +46,16 @@ services:
     volumes:
       - user_managment_database:/var/lib/postgresql/data
 
-  # friendship_database:
-  #   image: postgres:latest
-  #   container_name: friendship_database
-  #   env_file:
-  #     - ./databases/friendship_database/.env
-  #   ports:
-  #     - "5432:5432"
-  #   volumes:
-  #     - db_data:/var/lib/postgresql/data
-
+  friendship_database:
+    image: postgres:latest
+    container_name: friendship_database
+    env_file:
+      - ./databases/friendship_database/.env
+    ports:
+      - "5433:5433"
+    volumes:
+      - friendship_database:/var/lib/postgresql/data
+    command: ["postgres", "-c", "port=5433"]
 
 volumes:
   user_managment_database:
@@ -64,6 +64,12 @@ volumes:
       type: none
       o: bind
       device: /home/yoss/ft_transcendence/others/db_data/user_managment_database
+  friendship_database:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /home/yoss/ft_transcendence/others/db_data/friendship_database
   private_key:
     driver: local
     driver_opts:

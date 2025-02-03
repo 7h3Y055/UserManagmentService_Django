@@ -22,7 +22,6 @@ Get top 'n' users sorted by 'sort'
         "last_name": "Yosef",
         "bio": "blabla",
         "avatar_url": "http://localhost:8000/profile_images/7h3_Yosef.png",
-        "two_FA": false,
         "status": "ON",
         "created_at": "2025-02-03T08:13:03.854518Z"
     },
@@ -33,7 +32,6 @@ Get top 'n' users sorted by 'sort'
         "last_name": "Bouchmama",
         "bio": "blabla",
         "avatar_url": "http://localhost:8000/profile_images/ybouchma.jpg",
-        "two_FA": false,
         "status": "ON",
         "created_at": "2025-02-03T07:27:50.874484Z"
     }

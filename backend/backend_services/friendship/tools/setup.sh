@@ -8,4 +8,4 @@ pip install -r requirements.txt
 
 python3 manage.py migrate
 
-exec gunicorn -b 0.0.0.0:8000 project.wsgi:application
+exec gunicorn -b 0.0.0.0:8001 project.wsgi:application

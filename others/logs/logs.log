@@ -1,1 +1,73 @@
 
+INFO (2025-02-03 13:40:34,667): google_login | New request to create new user using google OAuth2 provider
+DEBUG (2025-02-03 13:40:34,925): _new_conn | Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG (2025-02-03 13:40:35,154): _make_request | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+DEBUG (2025-02-03 13:40:35,155): _new_conn | Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG (2025-02-03 13:40:35,339): _make_request | https://www.googleapis.com:443 "GET /oauth2/v1/userinfo HTTP/1.1" 200 None
+INFO (2025-02-03 13:40:35,348): callback | creating new User javamiya7@gmail.com does not exist
+DEBUG (2025-02-03 13:40:35,349): _new_conn | Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+DEBUG (2025-02-03 13:40:35,743): _make_request | https://lh3.googleusercontent.com:443 "GET /a/ACg8ocIATyogdzuy3HkzMfhzfW0XkIUS-6dTgw2bjfR8-E0QYVKbh104=s96-c HTTP/1.1" 200 11085
+INFO (2025-02-03 13:40:35,849): callback | login in User javamiya7@gmail.com
+WARNING (2025-02-03 13:40:35,887): log_response | Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING (2025-02-03 13:40:35,889): log_response | Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING (2025-02-03 13:40:35,891): log_response | Not Found: /static/rest_framework/css/prettify.css
+WARNING (2025-02-03 13:40:35,893): log_response | Not Found: /static/rest_framework/css/default.css
+WARNING (2025-02-03 13:40:35,894): log_response | Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING (2025-02-03 13:40:35,896): log_response | Not Found: /static/rest_framework/js/ajax-form.js
+WARNING (2025-02-03 13:40:35,898): log_response | Not Found: /static/rest_framework/js/csrf.js
+WARNING (2025-02-03 13:40:35,900): log_response | Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING (2025-02-03 13:40:35,904): log_response | Not Found: /static/rest_framework/js/prettify-min.js
+WARNING (2025-02-03 13:40:35,907): log_response | Not Found: /static/rest_framework/js/default.js
+WARNING (2025-02-03 13:40:35,909): log_response | Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING (2025-02-03 13:40:36,146): log_response | Not Found: /favicon.ico
+INFO (2025-02-03 13:40:47,426): login_42 | New request to create new user using 42 OAuth2 provider
+DEBUG (2025-02-03 13:40:47,611): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-02-03 13:40:47,800): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
+DEBUG (2025-02-03 13:40:47,801): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-02-03 13:40:48,483): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
+INFO (2025-02-03 13:40:48,493): callback | creating new User ybouchma@student.1337.ma does not exist
+DEBUG (2025-02-03 13:40:48,494): _new_conn | Starting new HTTPS connection (1): cdn.intra.42.fr:443
+DEBUG (2025-02-03 13:40:48,681): _make_request | https://cdn.intra.42.fr:443 "GET /users/79b1a559baa903aa8aafcc8307716749/small_ybouchma.jpeg HTTP/1.1" 200 7451
+INFO (2025-02-03 13:40:48,774): callback | login in User ybouchma@student.1337.ma
+WARNING (2025-02-03 13:40:48,802): log_response | Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING (2025-02-03 13:40:48,804): log_response | Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING (2025-02-03 13:40:48,806): log_response | Not Found: /static/rest_framework/css/prettify.css
+WARNING (2025-02-03 13:40:48,808): log_response | Not Found: /static/rest_framework/css/default.css
+WARNING (2025-02-03 13:40:48,810): log_response | Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING (2025-02-03 13:40:48,812): log_response | Not Found: /static/rest_framework/js/ajax-form.js
+WARNING (2025-02-03 13:40:48,813): log_response | Not Found: /static/rest_framework/js/csrf.js
+WARNING (2025-02-03 13:40:48,815): log_response | Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING (2025-02-03 13:40:48,817): log_response | Not Found: /static/rest_framework/js/prettify-min.js
+WARNING (2025-02-03 13:40:48,819): log_response | Not Found: /static/rest_framework/js/default.js
+WARNING (2025-02-03 13:40:48,820): log_response | Not Found: /static/rest_framework/js/load-ajax-form.js
+INFO (2025-02-03 13:50:54,347): login_42 | New request to create new user using 42 OAuth2 provider
+DEBUG (2025-02-03 13:50:54,546): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-02-03 13:50:54,709): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
+DEBUG (2025-02-03 13:50:54,710): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
+DEBUG (2025-02-03 13:50:55,290): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
+INFO (2025-02-03 13:50:55,396): callback | login in User ybouchma@student.1337.ma
+WARNING (2025-02-03 13:50:55,426): log_response | Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING (2025-02-03 13:50:55,429): log_response | Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING (2025-02-03 13:50:55,432): log_response | Not Found: /static/rest_framework/css/prettify.css
+WARNING (2025-02-03 13:50:55,434): log_response | Not Found: /static/rest_framework/css/default.css
+WARNING (2025-02-03 13:50:55,436): log_response | Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING (2025-02-03 13:50:55,438): log_response | Not Found: /static/rest_framework/js/ajax-form.js
+WARNING (2025-02-03 13:50:55,440): log_response | Not Found: /static/rest_framework/js/csrf.js
+WARNING (2025-02-03 13:50:55,442): log_response | Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING (2025-02-03 13:50:55,443): log_response | Not Found: /static/rest_framework/js/prettify-min.js
+WARNING (2025-02-03 13:50:55,445): log_response | Not Found: /static/rest_framework/js/default.js
+WARNING (2025-02-03 13:50:55,447): log_response | Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING (2025-02-03 14:46:50,774): log_response | Method Not Allowed: /account/update-profile/
+WARNING (2025-02-03 14:47:51,280): log_response | Method Not Allowed: /account/2
+WARNING (2025-02-03 15:15:32,246): log_response | Unauthorized: /account/update-profile/
+WARNING (2025-02-03 15:15:58,032): log_response | Unauthorized: /account/update-profile/
+WARNING (2025-02-03 18:15:52,976): log_response | Not Found: /account/1/
+WARNING (2025-02-03 18:23:18,744): log_response | Not Found: /account/1/
+WARNING (2025-02-03 18:23:28,675): log_response | Not Found: /account/1/
+WARNING (2025-02-03 18:23:33,062): log_response | Not Found: /account/2/
+WARNING (2025-02-03 18:23:34,743): log_response | Not Found: /account/2/
+WARNING (2025-02-03 18:24:22,640): log_response | Not Found: /account/2/
+WARNING (2025-02-03 18:24:35,600): log_response | Not Found: /account/2/
+WARNING (2025-02-03 18:24:51,636): log_response | Not Found: /account/2/
+WARNING (2025-02-03 18:26:29,063): log_response | Not Found: /account/2/
+WARNING (2025-02-03 18:26:35,586): log_response | Not Found: /account/2/
