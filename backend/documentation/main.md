@@ -21,3 +21,4 @@
 * **[Avatar](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/avatar.md)**
 * **[Search](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/search.md)**
 * **[Get User Info by ID](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/get_user_info.md)**
+* **[Update my info](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/update_info.md)**

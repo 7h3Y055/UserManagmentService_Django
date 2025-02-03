@@ -4,9 +4,9 @@ from .serializer import UserSerializer
 import requests, os, logging
 from rest_framework_simplejwt.tokens import RefreshToken
 from datetime import timedelta
-from restframework.response import Response
-from restframework.decorators import api_view, permission_classes
-from restframework.permissions import AllowAny
+from rest_framework.response import Response
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import AllowAny
 
 
 def get_oauth2_urls(provider):
@@ -100,7 +100,7 @@ def callback(req):
         "client_id": oauth2_urls['client_id'],
         "client_secret": oauth2_urls['client_secret'],
         'code': code,
-        "redirect_uri": str(os.environ.get('SOCIAL_AUTH_REDIRECT_URI'))',
+        "redirect_uri": str(os.environ.get('SOCIAL_AUTH_REDIRECT_URI'))
     }
 
     response = requests.post(url=oauth2_urls['token_url'], data=body)

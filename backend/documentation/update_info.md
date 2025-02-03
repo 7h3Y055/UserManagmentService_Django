@@ -1,14 +1,14 @@
 * **[MAIN](https://github.com/7h3Y055/ft_transcendence/blob/main/backend/documentation/main.md)**
 
 ### `/account/update-profile/`
-Endpoint to update informations 
+Endpoint to update information
 
 #### Method: `PATCH`
 
 #### Request:
 * **URL:** `/account/update-profile/`
 * **BODY:**
-``` json
+```json
 {
   "id": 2,
   "username": "ybouchma",
@@ -39,14 +39,13 @@ Endpoint to update informations
 * **Error:**
 ```json
 {
-  "error": "Invalid parameters",
-  "details": "Please provide a valid 'q'"
+    "first_name": "a"
 }
-```
-* **Error:**
-```json
+=>
 {
-  "error": "Invalid value in 'limit' and/or 'offset'"
+    "first_name": [
+        "First name too short"
+    ]
 }
 ```
 
@@ -54,5 +53,5 @@ Endpoint to update informations
 
 | Code | Description                              |
 |------|------------------------------------------|
-| 200  | User information retrieved successfully  |
-
+| 200  | User information updated successfully    |
+| 400  | Bad request                              |
