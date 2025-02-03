@@ -1,6 +1,5 @@
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
-from django.conf import settings
 from django.core.validators import EmailValidator
 from django.core.exceptions import ValidationError
 # Create your models here.
@@ -35,6 +34,7 @@ class Player(AbstractBaseUser):
     email = models.EmailField(null=True, max_length=255, unique=True)
     first_name = models.CharField(null=True, max_length=30)
     last_name = models.CharField(null=True, max_length=30)
+    bio = models.TextField(null=True, blank=True, max_length=500, default='')
     avatar_url = models.URLField(null=True)
     status = models.CharField(max_length=2, choices=STATUS_CHOICES, default='ON')
     two_FA = models.BooleanField(default=False)

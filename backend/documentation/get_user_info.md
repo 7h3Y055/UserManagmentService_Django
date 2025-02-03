@@ -16,6 +16,7 @@ Endpoint to get information of a user by their ID.
   "username": "7h3_Yosef",
   "first_name": "7h3",
   "last_name": "Yosef",
+  "bio": "blabla",
   "avatar_url": "http://localhost:8000/profile_images/7h3_Yosef.png",
   "two_FA": false,
   "status": "ON",

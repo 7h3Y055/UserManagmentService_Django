@@ -1,45 +1,21 @@
 TO-DO:
-    verify avatar size in upload
-    add update profile in user managment service
-    add bio
-    disable Debug mode
+    verify avatar size in upload (Pillow)
 
 
 
 
 ROUTES:
-    /account/login/42/          (GET)     : for logging 42 authentication.
-    /account/login/google/      (GET)     : for logging in using Google authentication.
-    /account/login/callback/    (GET)     : Callback endpoint for handling login responses from third-party authentication providers.
-    /account/login/refresh/     (POST)    : for refreshing the access_token.
-    /account/logout/            (POST)    : for logging out the current user.
-    /account/whoami/            (GET)     : for retrieving information about the currently authenticated user.
-    /account/delete/user/       (DELETE)    : for deleting the current user's account.
-    /account/avatar/            (POST)    : upload new avatar (.jpg, .png, .gif, .webp,)
-    /account/avatar/            (DELETE)  : remove avatar (set to default)
-    /account/search/?q=keyword  (GET)    : get all users match the keyword (can search with username or first name and lastname)
-    /account/{user_id}          (GET)    : get informations of this user id
-    /account/update-profile/    (PATCH)    : update informations 
-
-body:
-    /account/login/refresh
-        Request:
-            {
-                "refresh": "<refresh_token>"
-            }
-        Response:
-            {
-                "access": "<access_token>",
-                "refresh": "<refresh_token>"
-            }
-    /account/logout
-        Request:
-            {
-                "refresh": "<refresh_token>"
-            }
-        Response:
-            {
-                "message": "Successfully logged out."
-            }
-        
+    /account/login/42/                 (GET)     : for logging 42 authentication.
+    /account/login/google/             (GET)     : for logging in using Google authentication.
+    /account/login/callback/           (GET)     : Callback endpoint for handling login responses from third-party authentication providers.
+    /account/login/refresh/            (POST)    : for refreshing the access_token.
+    /account/logout/                   (POST)    : for logging out the current user.
+    /account/whoami/                   (GET)     : for retrieving information about the currently authenticated user.
+    /account/delete/user/              (DELETE)  : for deleting the current user's account.
+    /account/avatar/                   (POST)    : upload new avatar (.jpg, .png, .gif, .webp,)
+    /account/avatar/                   (DELETE)  : remove avatar (set to default)
+    /account/search/?q=keyword         (GET)     : get all users match the keyword (can search with username or first name and lastname)
+    /account/{user_id}                 (GET)     : get informations of this user id
+    /account/update-profile/           (PATCH)   : update informations 
+    /account/users/n?=3&sort=newest    (GET)     : get top 'n' of users sorted by 'sort'
 

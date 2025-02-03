@@ -7,4 +7,5 @@ from .profile import  whoami, update_profile
 from .avatar import avatar
 from .search import search
 from .info import info
+from .users import get_user
 

@@ -14,4 +14,5 @@ urlpatterns = [
     path('avatar/', avatar),
     path('search/', search),
     path('<int:user_id>', info),
+    path('users/', get_user),
 ]
