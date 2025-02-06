@@ -4,10 +4,10 @@ DEBUG (2025-02-03 13:40:34,925): _new_conn | Starting new HTTPS connection (1): 
 DEBUG (2025-02-03 13:40:35,154): _make_request | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
 DEBUG (2025-02-03 13:40:35,155): _new_conn | Starting new HTTPS connection (1): www.googleapis.com:443
 DEBUG (2025-02-03 13:40:35,339): _make_request | https://www.googleapis.com:443 "GET /oauth2/v1/userinfo HTTP/1.1" 200 None
-INFO (2025-02-03 13:40:35,348): callback | creating new User javamiya7@gmail.com does not exist
+INFO (2025-02-03 13:40:35,348): callback | creating new User test@mail.co does not exist
 DEBUG (2025-02-03 13:40:35,349): _new_conn | Starting new HTTPS connection (1): lh3.googleusercontent.com:443
 DEBUG (2025-02-03 13:40:35,743): _make_request | https://lh3.googleusercontent.com:443 "GET /a/ACg8ocIATyogdzuy3HkzMfhzfW0XkIUS-6dTgw2bjfR8-E0QYVKbh104=s96-c HTTP/1.1" 200 11085
-INFO (2025-02-03 13:40:35,849): callback | login in User javamiya7@gmail.com
+INFO (2025-02-03 13:40:35,849): callback | login in User test@mail.co
 WARNING (2025-02-03 13:40:35,887): log_response | Not Found: /static/rest_framework/css/bootstrap.min.css
 WARNING (2025-02-03 13:40:35,889): log_response | Not Found: /static/rest_framework/css/bootstrap-tweaks.css
 WARNING (2025-02-03 13:40:35,891): log_response | Not Found: /static/rest_framework/css/prettify.css
@@ -25,10 +25,10 @@ DEBUG (2025-02-03 13:40:47,611): _new_conn | Starting new HTTPS connection (1): 
 DEBUG (2025-02-03 13:40:47,800): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
 DEBUG (2025-02-03 13:40:47,801): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
 DEBUG (2025-02-03 13:40:48,483): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
-INFO (2025-02-03 13:40:48,493): callback | creating new User ybouchma@student.1337.ma does not exist
+INFO (2025-02-03 13:40:48,493): callback | creating new User test2@mail.co does not exist
 DEBUG (2025-02-03 13:40:48,494): _new_conn | Starting new HTTPS connection (1): cdn.intra.42.fr:443
 DEBUG (2025-02-03 13:40:48,681): _make_request | https://cdn.intra.42.fr:443 "GET /users/79b1a559baa903aa8aafcc8307716749/small_ybouchma.jpeg HTTP/1.1" 200 7451
-INFO (2025-02-03 13:40:48,774): callback | login in User ybouchma@student.1337.ma
+INFO (2025-02-03 13:40:48,774): callback | login in User test2@mail.co
 WARNING (2025-02-03 13:40:48,802): log_response | Not Found: /static/rest_framework/css/bootstrap.min.css
 WARNING (2025-02-03 13:40:48,804): log_response | Not Found: /static/rest_framework/css/bootstrap-tweaks.css
 WARNING (2025-02-03 13:40:48,806): log_response | Not Found: /static/rest_framework/css/prettify.css
@@ -45,7 +45,7 @@ DEBUG (2025-02-03 13:50:54,546): _new_conn | Starting new HTTPS connection (1): 
 DEBUG (2025-02-03 13:50:54,709): _make_request | https://api.intra.42.fr:443 "POST /oauth/token HTTP/1.1" 200 None
 DEBUG (2025-02-03 13:50:54,710): _new_conn | Starting new HTTPS connection (1): api.intra.42.fr:443
 DEBUG (2025-02-03 13:50:55,290): _make_request | https://api.intra.42.fr:443 "GET /v2/me HTTP/1.1" 200 None
-INFO (2025-02-03 13:50:55,396): callback | login in User ybouchma@student.1337.ma
+INFO (2025-02-03 13:50:55,396): callback | login in User test2@mail.co
 WARNING (2025-02-03 13:50:55,426): log_response | Not Found: /static/rest_framework/css/bootstrap.min.css
 WARNING (2025-02-03 13:50:55,429): log_response | Not Found: /static/rest_framework/css/bootstrap-tweaks.css
 WARNING (2025-02-03 13:50:55,432): log_response | Not Found: /static/rest_framework/css/prettify.css
